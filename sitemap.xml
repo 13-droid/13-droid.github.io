@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>MistyStepBlog/navbar</loc>
+    <loc>https://mistystep.org/navbar</loc>
   </url>
   <url>
-    <loc>MistyStepBlog/index</loc>
+    <loc>https://mistystep.org/index</loc>
   </url>
   <url>
-    <loc>MistyStepBlog/footer</loc>
+    <loc>https://mistystep.org/footer</loc>
   </url>
 </urlset>
