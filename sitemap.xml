@@ -7,12 +7,9 @@
     <loc>https://mistystep.org/index</loc>
   </url>
   <url>
-    <loc>https://mistystep.org/blog/example-blog-post</loc>
+    <loc>https://mistystep.org/blog/i-hate-password-managers</loc>
   </url>
   <url>
-    <loc>https://mistystep.org/blog/quick/example-quick</loc>
-  </url>
-  <url>
-    <loc>https://mistystep.org/blog/quick/example-link</loc>
+    <loc>https://mistystep.org/blog/quick/test</loc>
   </url>
 </urlset>
