@@ -1,5 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>Misty Step Blog</title><link>https://mistystep.org</link><description>This is an RSS feed of my website.</description><item><title>How I manage my passwords - Misty Step Blog</title><link>https://mistystep.org/blog/i-hate-password-managers</link><guid>https://mistystep.org/blog/i-hate-password-managers</guid><description>&lt;main&gt;
+<rss version="2.0"><channel><title>Misty Step Blog</title><link>https://mistystep.org</link><description>This is an RSS feed of my website.</description><item><title>How I manage my passwords - Misty Step Blog</title><link>https://mistystep.org/blog/i-hate-password-managers</link><guid>https://mistystep.org/blog/i-hate-password-managers</guid><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
+&lt;div class="categoryTag"&gt;
+            computers
+          &lt;/div&gt;
+&lt;div class="categoryTag"&gt;
+            security
+          &lt;/div&gt;
+&lt;div class="categoryTag"&gt;
+            privacy
+          &lt;/div&gt;
+&lt;hr/&gt;
 &lt;h1 id="how-i-manage-my-passwords"&gt;How I manage my passwords&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;I. hate. password. managers.&lt;/strong&gt; And you should too. Please allow me to teach you to never need them again, not before a quick rant.&lt;/p&gt;
 &lt;h2 id="pwned"&gt;Pwned!&lt;/h2&gt;
