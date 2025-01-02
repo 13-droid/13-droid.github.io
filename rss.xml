@@ -9,7 +9,6 @@
 &lt;div class="categoryTag"&gt;
             privacy
           &lt;/div&gt;
-&lt;hr/&gt;
 &lt;h1 id="how-i-manage-my-passwords"&gt;How I manage my passwords&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;I. hate. password. managers.&lt;/strong&gt; And you should too. Please allow me to teach you to never need them again, not before a quick rant.&lt;/p&gt;
 &lt;h2 id="pwned"&gt;Pwned!&lt;/h2&gt;
@@ -19,7 +18,7 @@
 &lt;p&gt;If I am left without my laptop or my personal mobile device, am I to be locked out of everything I ever signed up to? What if I'm on a friend's phone, somewhere else, on a foreign machine? Do I &lt;em&gt;need&lt;/em&gt; to log into 1password to reveal all of my passwords? Do I need to reveal my untypeable password from a mobile app and tediously type it in?&lt;/p&gt;
 &lt;h2 id="single-point-of-failure"&gt;Single point of failure&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/d0cc9b55-a485-4dee-9d14-944555fe1802" style="max-width:100%;"/&gt;&lt;/p&gt;
-&lt;p&gt;There is something we call a "single point of failure" in engineering lingo. And a password manager is simply that. Using a password managers introduce a single point of failure into your online life. Where your logging into any other application is dependent on a shabby corporate tool.&lt;/p&gt;
+&lt;p&gt;There is something we call a "single point of failure" in engineering lingo. And a password manager is simply that. Using a password manager introduces a single point of failure into your online life. Where your logging into any other application is dependent on a shabby corporate tool.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/bbbeab43-4078-41e3-b235-aed9b737557c" style="max-width:100%;"/&gt;&lt;/p&gt;
 &lt;p&gt;Why would you do this to yourself?&lt;/p&gt;
 &lt;h2 id="you-only-need-a-function"&gt;You only need a function&lt;/h2&gt;
@@ -29,7 +28,7 @@
 &lt;p&gt;This way, when you are logging into a website, you won't need to know your password. I never do! I only know my password function, and the context (about the service I'm logging into).&lt;/p&gt;
 &lt;h2 id="what"&gt;What?&lt;/h2&gt;
 &lt;p&gt;Okay, its actually quite simple. Let me go over it with a simple example.&lt;/p&gt;
-&lt;p&gt;Here's an example password function. My context is only the url of the website.&lt;/p&gt;
+&lt;p&gt;Here's an example "password function". My context is only the url of the website.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;&amp;lt;number of letters in the website name + 5&amp;gt;.&amp;lt;last 3 letters of the website, reversed&amp;gt;&amp;lt;last letter of the website's TLD&amp;gt;&amp;lt;! if it ends with a vowel, ? otherwise&amp;gt;&amp;lt;number of consonants in the website's name&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
