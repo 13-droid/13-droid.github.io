@@ -154,14 +154,14 @@ I'm tagging links in this article with pound/number sign tips. Click on these ta
 &lt;ul&gt;
 &lt;li&gt; &lt;find-href&gt;#rss&lt;/find-href&gt;: self-explanatory, really. &lt;/li&gt;
 &lt;li&gt; &lt;find-href&gt;#blog&lt;/find-href&gt;: a person's blog &lt;/li&gt;
-&lt;li&gt; &lt;find-href&gt;#blogs&lt;/find-href&gt;: a person's index of blogs they read/follow &lt;/li&gt;
+&lt;li&gt; &lt;find-href&gt;#roll&lt;/find-href&gt;: a person's index of blogs they read/follow &lt;/li&gt;
 &lt;li&gt; &lt;find-href&gt;#newsletter&lt;/find-href&gt;: a newsletter they may be curating &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="taylor-troesh"&gt;Taylor Troesh&lt;/h2&gt;
 &lt;p&gt;Writes about software and life. Likes to experiment with interesting new concepts. Passionate about their projects. Writes a lot.&lt;/p&gt;
 &lt;p&gt;Some example projects/posts to give an idea of what they do&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Directory of small blogs &lt;a href="https://blogs.hn/#blogs"&gt;blogs.hn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Directory of small blogs &lt;a href="https://blogs.hn/#roll"&gt;blogs.hn&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Scrapscript &lt;a href="https://scrapscript.org/"&gt;scrapscript.org&lt;/a&gt; (I still don't understand it but I will, hopefully)&lt;/li&gt;
 &lt;li&gt;Better spreadsheets &lt;a href="https://taylor.town/better-spreadsheets"&gt;taylor.town/better-spreadsheets&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Your next two zeroes &lt;a href="taylor.town/next-two-zeroes"&gt;taylor.town/next-two-zeroes&lt;/a&gt;&lt;/li&gt;
@@ -173,7 +173,7 @@ I'm tagging links in this article with pound/number sign tips. Click on these ta
 &lt;p&gt;&lt;a href="https://manuelmoreale.com/#blog"&gt;https://manuelmoreale.com/#blog&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;What they do:
 - People and blogs series &lt;a href="https://peopleandblogs.com/#newsletter"&gt;https://peopleandblogs.com/#newsletter&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Their index of blogs &lt;a href="https://manuelmoreale.com/blogroll#blogs"&gt;https://manuelmoreale.com/blogroll#blogs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Their index of blogs &lt;a href="https://manuelmoreale.com/blogroll#roll"&gt;https://manuelmoreale.com/blogroll#roll&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;RSS: &lt;a href="https://manuelmoreale.com/feed/rss#rss"&gt;https://manuelmoreale.com/feed/rss#rss&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="nolen-royalty"&gt;Nolen Royalty&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://eieio.games/#blog"&gt;https://eieio.games/#blog&lt;/a&gt;&lt;/p&gt;
@@ -204,6 +204,8 @@ every phenomenon actually has a scientific explanation &lt;a href="https://mitxe
 &lt;p&gt;Anthropologist, design researcher.&lt;/p&gt;
 &lt;p&gt;Blog in english &lt;a href="https://www.nicolasnova.net/pasta-and-vinegar#blog"&gt;https://www.nicolasnova.net/pasta-and-vinegar#blog&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Blog in french &lt;a href="https://www.nicolasnova.net/carnet#blog"&gt;https://www.nicolasnova.net/carnet#blog&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="anne-laure-le-cunff"&gt;Anne-Laure Le Cunff&lt;/h2&gt;
+&lt;p&gt;Mindfulness at work &lt;a href="https://nesslabs.com/#blog"&gt;https://nesslabs.com/#blog&lt;/a&gt;&lt;/p&gt;
 &lt;hr/&gt;
 &lt;!-- Finds all links tagged with #rss and creates an rss feed --&gt;
 
