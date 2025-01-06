@@ -118,6 +118,7 @@ every phenomenon actually has a scientific explanation <a href="https://mitxela.
 <p>https://blog.codinghorror.com/#blog</p>
 <p>https://blog.codinghorror.com/rss/#rss</p>
 <hr/>
+<!-- Finds all links tagged with #rss and creates an rss feed -->
 <script>
   document.addEventListener('DOMContentLoaded', function () {
   // Base URL for the RSS reader
@@ -143,7 +144,7 @@ every phenomenon actually has a scientific explanation <a href="https://mitxela.
   // Optionally display the link in the page (e.g., append it to the body)
   const displayLink = document.createElement('a');
   displayLink.href = rssReaderUrl;
-  displayLink.textContent = 'Auto-Generated RSS Reader Link';
+  displayLink.textContent = '📶 Auto-Generated RSS Reader Link';
   displayLink.target = '_blank';
   document.querySelector('main').appendChild(displayLink);
 });
