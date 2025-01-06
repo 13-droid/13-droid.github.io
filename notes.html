@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://mistystep.org/static/css/theme.css">
+    <link rel="icon" type="image/png" href="https://emoji.dutl.uk/png/64x64/🌫️.png">
+    <title>Notes - Misty Step Blog</title>
+    
+    <meta property="og:title" name="title" content="Notes" />
+    <meta property="og:image" name="image" content="https://mistystep.org/static/img/default_img.png" />
+    <meta property="og:description" name="description" content="Notes I take from blogs I readLegend:
+- #bookRec : Book recommendationsThe High Cost of Free Parking - Donald Shoup #bookRec from https://taylor.town/pardo..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" name="url" content="https://mistystep.org/notes">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Notes">
+    <meta name="twitter:description" content="Notes I take from blogs I readLegend:
+- #bookRec : Book recommendationsThe High Cost of Free Parking - Donald Shoup #bookRec from https://taylor.town/pardo...">
+    <meta name="twitter:image" content="https://mistystep.org/static/img/default_img.png">
+    <link rel="canonical" href="https://mistystep.org/notes" />
+    
+    <!-- Link to headings -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const headings = document.querySelectorAll('main h2, main h3, main h4');
+    headings.forEach(function (heading) {
+      heading.addEventListener('click', function () {
+        window.location.hash = heading.id;
+      });
+    });
+  });
+</script>
+
+<!-- Highlight tagged links -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('find-href').forEach(tag => {
+      tag.addEventListener('click', () => {
+        const searchString = tag.textContent.trim();
+        document.querySelectorAll('a').forEach(link => {
+          if (link.href.includes(searchString)) {
+            link.classList.add('highlighted');
+          } else {
+            link.classList.remove('highlighted');
+          }
+        });
+      });
+    });
+  });
+</script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <nav>
+          <p><img alt="" src="/static/img/ms.png" /></p>
+<p><a href="/">Home</a> | <a href="/blog">Blog</a> | <a href="/archive">Archive</a> | <a href="/rss.xml">RSS</a></p>
+        </nav>
+      </div>
+      <div class="content">
+        <main>
+          
+          <h1 id="notes">Notes</h1>
+<p>Notes I take from blogs I read</p>
+<p>Legend:
+- #bookRec : Book recommendations</p>
+<p>The High Cost of Free Parking - Donald Shoup #bookRec from <a href="https://taylor.town/pardon-2024">https://taylor.town/pardon-2024</a></p>
+        </main>
+      </div>
+      <footer>
+        <p>misty@mail.co.uk - 🌫️ - 2025</p>
+      </footer>
+    </div>
+  </body>
+</html>
