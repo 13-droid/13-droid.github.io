@@ -140,11 +140,13 @@
 so that I won't have to rely on Twitter to remember they exist, nor have to give them a prerequisite 
 of having an rss feed to stay in my reading rotation.&lt;/p&gt;
 &lt;p&gt;Legend:
-I'm tagging links in this article with pound/number sign tips. 
-- &lt;find-href&gt;#rss&lt;/find-href&gt;: self-explanatory, really.
-- &lt;find-href&gt;#blog&lt;/find-href&gt;: a person's blog
-- &lt;find-href&gt;#blogs&lt;/find-href&gt;: a person's index of blogs they read/follow
-- &lt;find-href&gt;#newsletter&lt;/find-href&gt;: a newsletter they may be curating&lt;/p&gt;
+I'm tagging links in this article with pound/number sign tips. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;find-href&gt;#rss&lt;/find-href&gt;: self-explanatory, really. &lt;/li&gt;
+&lt;li&gt; &lt;find-href&gt;#blog&lt;/find-href&gt;: a person's blog &lt;/li&gt;
+&lt;li&gt; &lt;find-href&gt;#blogs&lt;/find-href&gt;: a person's index of blogs they read/follow &lt;/li&gt;
+&lt;li&gt; &lt;find-href&gt;#newsletter&lt;/find-href&gt;: a newsletter they may be curating &lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id="taylor-troesh"&gt;Taylor Troesh&lt;/h2&gt;
 &lt;p&gt;Writes about software and life. Likes to experiment with interesting new concepts. Passionate about their projects. Writes a lot.&lt;/p&gt;
 &lt;p&gt;Some example projects/posts to give an idea of what they do&lt;/p&gt;
@@ -155,14 +157,14 @@ I'm tagging links in this article with pound/number sign tips.
 &lt;li&gt;Your next two zeroes &lt;a href="taylor.town/next-two-zeroes"&gt;taylor.town/next-two-zeroes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://taylor.town/harpsichord"&gt;taylor.town/harpsichord&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Github: &lt;a href="https://github.com/surprisetalk"&gt;github.com/surprisetalk&lt;/a&gt;
-RSS: &lt;a href="https://taylor.town/feed.xml#rss"&gt;taylor.town/feed.xml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Github: &lt;a href="https://github.com/surprisetalk"&gt;github.com/surprisetalk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;RSS: &lt;a href="https://taylor.town/feed.xml#rss"&gt;taylor.town/feed.xml&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="manuel-maruale"&gt;Manuel Maruale&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://manuelmoreale.com/#blog"&gt;https://manuelmoreale.com/#blog&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;What they do:
 - People and blogs series &lt;a href="https://peopleandblogs.com/#newsletter"&gt;https://peopleandblogs.com/#newsletter&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Their index of blogs &lt;a href="https://manuelmoreale.com/blogroll#blogs"&gt;https://manuelmoreale.com/blogroll#blogs&lt;/a&gt;
-RSS: &lt;a href="https://manuelmoreale.com/feed/rss#rss"&gt;https://manuelmoreale.com/feed/rss#rss&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Their index of blogs &lt;a href="https://manuelmoreale.com/blogroll#blogs"&gt;https://manuelmoreale.com/blogroll#blogs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;RSS: &lt;a href="https://manuelmoreale.com/feed/rss#rss"&gt;https://manuelmoreale.com/feed/rss#rss&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="nolen-royalty"&gt;Nolen Royalty&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://eieio.games/#blog"&gt;https://eieio.games/#blog&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Creates games in unorthodox places &amp;amp; other fun projects.&lt;/p&gt;
@@ -173,8 +175,8 @@ RSS: &lt;a href="https://manuelmoreale.com/feed/rss#rss"&gt;https://manuelmoreal
 &lt;h2 id="diamond-geezer"&gt;Diamond Geezer&lt;/h2&gt;
 &lt;p&gt;Extreme-blogger. London enthusiast. His blog is a holy encyplopedia of everything London. Old chap, legend. Blog 
 is 22 yrs old and counting. &lt;/p&gt;
-&lt;p&gt;&lt;a href="https://diamondgeezer.blogspot.com/#blog"&gt;https://diamondgeezer.blogspot.com/#blog&lt;/a&gt;
-&lt;a href="https://feeds.feedburner.com/blogspot/HcFb#rss"&gt;https://feeds.feedburner.com/blogspot/HcFb#rss&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://diamondgeezer.blogspot.com/#blog"&gt;https://diamondgeezer.blogspot.com/#blog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://feeds.feedburner.com/blogspot/HcFb#rss"&gt;https://feeds.feedburner.com/blogspot/HcFb#rss&lt;/a&gt;&lt;/p&gt;
 &lt;!-- Testing something --&gt;
 
 
