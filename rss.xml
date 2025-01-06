@@ -130,10 +130,19 @@
             tools
           &lt;/div&gt;
 &lt;h1 id="useful-online-tools"&gt;Useful online tools&lt;/h1&gt;
-&lt;p&gt;This is my index of useful online tools. I have a few tenets: No login, does the job well, doesn't beg you for spare coin.&lt;/p&gt;
+&lt;p&gt;This is my index of useful online tools. I have a few tenets: No login, does the job well, 
+doesn't beg you for spare coin.&lt;/p&gt;
+&lt;h2 id="image-operations"&gt;Image operations&lt;/h2&gt;
 &lt;p&gt;PNG operations, allows chaining ops. &lt;a href="https://onlinepngtools.com/crop-png"&gt;https://onlinepngtools.com/crop-png&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="table-conversion"&gt;Table conversion&lt;/h2&gt;
 &lt;p&gt;Any table conversion in any direction between html, csv, excel, markdown and more. 
-&lt;a href="https://tableconvert.com/"&gt;https://tableconvert.com/&lt;/a&gt; This tool is also inspiring because it (is not but) could be a client-side product. God knows I like client-side tools!&lt;/p&gt;
+&lt;a href="https://tableconvert.com/"&gt;https://tableconvert.com/&lt;/a&gt; This tool is also inspiring because it (is not but) could be a 
+client-side product. God knows I like client-side tools!&lt;/p&gt;
+&lt;h2 id="where-can-you-get-to-in-_-time"&gt;Where can you get to in _ time?&lt;/h2&gt;
+&lt;p&gt;Mapnificient is a tool that shows, given a location, all the area you can get to under a 
+given time constraint &lt;strong&gt;with public transport&lt;/strong&gt;. Great tool for finding possible short 
+commute neighbourhoods for your job, or finding places to visit in the weekend.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.mapnificent.net/london"&gt;https://www.mapnificent.net/london&lt;/a&gt;&lt;/p&gt;
 &lt;/main&gt;</description></item><item><title>Who I am following and what for - Misty Step Blog</title><link>https://mistystep.org/blog/following</link><guid>https://mistystep.org/blog/following</guid><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 &lt;h1 id="who-i-am-following-and-what-for"&gt;Who I am following and what for&lt;/h1&gt;
 &lt;p&gt;This is my notes about people I follow on the web. This is an alternate index for people I follow 
