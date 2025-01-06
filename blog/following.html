@@ -21,7 +21,17 @@ so that I won't have to rely on Twitter to remember they...">
     <link rel="canonical" href="https://mistystep.org/blog/following" />
     <meta property="og:pubdate" name="pubdate" content="Mon, 06 Jan 2025 00:00:00 +0000" />
 
-    
+    <!-- Link to headings -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const headings = document.querySelectorAll('main h2, main h3, main h4');
+    headings.forEach(function (heading) {
+      heading.addEventListener('click', function () {
+        window.location.hash = heading.id;
+      });
+    });
+  });
+</script>
   </head>
   <body>
     <div class="wrapper">

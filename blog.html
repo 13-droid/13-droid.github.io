@@ -20,7 +20,17 @@ so that I won't have to rely on Twitter to remember they...">
     <meta name="twitter:image" content="https://mistystep.org/static/img/default_img.png">
     <link rel="canonical" href="https://mistystep.org/blog" />
     
-    
+    <!-- Link to headings -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const headings = document.querySelectorAll('main h2, main h3, main h4');
+    headings.forEach(function (heading) {
+      heading.addEventListener('click', function () {
+        window.location.hash = heading.id;
+      });
+    });
+  });
+</script>
   </head>
   <body>
     <div class="wrapper">
