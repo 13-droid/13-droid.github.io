@@ -40,10 +40,10 @@ so that I won't have to rely on Twitter to remember they exist, nor have to give
 of having an rss feed to stay in my reading rotation.</p>
 <p>Legend:
 I'm tagging links in this article with pound/number sign tips. 
-- #rss : self-explanatory, really.
-- #blog: a person's blog
-- #blogs: a person's index of blogs they read/follow
-- #newsletter: a newsletter they may be curating</p>
+- <find-href>#rss</find-href>: self-explanatory, really.
+- <find-href>#blog</find-href>: a person's blog
+- <find-href>#blogs</find-href>: a person's index of blogs they read/follow
+- <find-href>#newsletter</find-href>: a newsletter they may be curating</p>
 <h2 id="taylor-troesh">Taylor Troesh</h2>
 <p>Writes about software and life. Likes to experiment with interesting new concepts. Passionate about their projects. Writes a lot.</p>
 <p>Some example projects/posts to give an idea of what they do</p>
@@ -74,6 +74,26 @@ RSS: <a href="https://manuelmoreale.com/feed/rss#rss">https://manuelmoreale.com/
 is 22 yrs old and counting. </p>
 <p><a href="https://diamondgeezer.blogspot.com/#blog">https://diamondgeezer.blogspot.com/#blog</a>
 <a href="https://feeds.feedburner.com/blogspot/HcFb#rss">https://feeds.feedburner.com/blogspot/HcFb#rss</a></p>
+<!-- Testing something -->
+<style>
+  a.highlighted {
+    background-color: darkorchid;
+  }
+</style>
+<script>
+  document.querySelectorAll('find-href').forEach(tag => {
+    tag.addEventListener('click', () => {
+      const searchString = tag.textContent.trim();
+      document.querySelectorAll('a').forEach(link => {
+        if (link.href.includes(searchString)) {
+          link.classList.add('highlighted');
+        } else {
+          link.classList.remove('highlighted');
+        }
+      });
+    });
+  });
+</script>
         </main>
       </div>
       <footer>
