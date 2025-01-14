@@ -87,6 +87,7 @@ I'm tagging links in this article with pound/number sign tips. Click on these ta
 &lt;li&gt; &lt;find-tag&gt;#roll&lt;/find-tag&gt;: a person's index of blogs they read/follow &lt;/li&gt;
 &lt;li&gt; &lt;find-tag&gt;#newsletter&lt;/find-tag&gt;: a newsletter they may be curating &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;P.S. &lt;code&gt;#--rss&lt;/code&gt; -&amp;gt; temporarily disabled in my reader&lt;/p&gt;
 &lt;p&gt;All feeds tagged with #rss on this page are automatically included in this reader:&lt;/p&gt;
 &lt;!-- Find all links tagged with #rss and create an rss feed --&gt;
 &lt;!-- If current page has ?feed, go to feed --&gt;
@@ -157,7 +158,7 @@ I'm tagging links in this article with pound/number sign tips. Click on these ta
 &lt;p&gt;Extreme-blogger. London enthusiast. His blog is a holy encyplopedia of everything London. Old chap, legend. Blog 
 is 22 yrs old and counting. &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://diamondgeezer.blogspot.com/#blog"&gt;https://diamondgeezer.blogspot.com/#blog&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://feeds.feedburner.com/blogspot/HcFb#rss"&gt;https://feeds.feedburner.com/blogspot/HcFb#rss&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://feeds.feedburner.com/blogspot/HcFb#--rss"&gt;https://feeds.feedburner.com/blogspot/HcFb#--rss&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="mitxela"&gt;Mitxela&lt;/h3&gt;
 &lt;p&gt;Alex Tim (&amp;lt;- mitxela) has many interesting projects. Love that they're not limited to software but venture on hardware.&lt;/p&gt;
 &lt;p&gt;Loved their process of &lt;a href="https://mitxela.com/projects/thermal_paper_polaroid"&gt;creating a thermal paper polaroid&lt;/a&gt;. I think 
