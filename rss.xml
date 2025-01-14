@@ -91,6 +91,8 @@ However, this is rarely a case for concern, as you'll be doing the gardening for
 I'm sure we'd be able to find anchor terms in dynamically loaded websites. The worst case for a false negative is someone clicking on an ad, and the
 worst case for a false positive is you having to update your &lt;strong&gt;link seal&lt;/strong&gt; key.&lt;/p&gt;
 &lt;p&gt;What do you think? Any ideas? Concerns? Do you think this is a big pile of bull? Reach out to tell me and let's discuss. &lt;/p&gt;
+&lt;div id="linkSealLogs"&gt;&lt;/div&gt;
+
 &lt;/main&gt;</description></item><item><title>What I expect from this blog - Misty Step Blog</title><link>https://mistystep.org/blog/this-blog</link><guid>https://mistystep.org/blog/this-blog</guid><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 &lt;div class="categoryTag"&gt;
             blogging
