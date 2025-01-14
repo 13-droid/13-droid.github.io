@@ -1,6 +1,26 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss version="2.0"><channel><title>Misty Step Blog</title><link>https://mistystep.org</link><description>This is an RSS feed of my website.</description><item><title>Link seals - a testable links concept proposal - Misty Step Blog</title><link>https://mistystep.org/blog/testable-links</link><guid>https://mistystep.org/blog/testable-links</guid><pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 &lt;h1 id="link-seals-a-testable-links-concept-proposal"&gt;Link seals - a testable links concept proposal&lt;/h1&gt;
+&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#link-seals-a-testable-links-concept-proposal"&gt;Link seals - a testable links concept proposal&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#link-seals"&gt;Link seals&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#premise"&gt;Premise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#example"&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#public-or-private-seal-check-functions"&gt;Public or Private Seal Check Functions&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#public"&gt;Public&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#private"&gt;Private&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#applications"&gt;Applications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#challenges"&gt;Challenges&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#live-demo"&gt;Live Demo ‼️&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;p&gt;I was reading &lt;a href="https://shkspr.mobi/blog/2024/12/how-bad-is-link-rot-on-my-blog/" linksealkey="Terence Eden"&gt;How bad is link rot on my blog?&lt;/a&gt;
 on Terence Eden's blog. It’s an article where he shares his experience tending to outgoing links in his blog. He shares&lt;br/&gt;
 some interesting data on it as well. I encourage you to have a read.  &lt;/p&gt;
