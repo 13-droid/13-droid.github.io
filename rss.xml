@@ -1,5 +1,95 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>Misty Step Blog</title><link>https://mistystep.org</link><description>This is an RSS feed of my website.</description><item><title>What I expect from this blog - Misty Step Blog</title><link>https://mistystep.org/blog/this-blog</link><guid>https://mistystep.org/blog/this-blog</guid><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
+<rss version="2.0"><channel><title>Misty Step Blog</title><link>https://mistystep.org</link><description>This is an RSS feed of my website.</description><item><title>Link seals - a testable links concept proposal - Misty Step Blog</title><link>https://mistystep.org/blog/testable-links</link><guid>https://mistystep.org/blog/testable-links</guid><pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
+&lt;h1 id="link-seals-a-testable-links-concept-proposal"&gt;Link seals - a testable links concept proposal&lt;/h1&gt;
+&lt;p&gt;I was reading &lt;a href="https://shkspr.mobi/blog/2024/12/how-bad-is-link-rot-on-my-blog/" linksealkey="Display the results as CSV"&gt;How bad is link rot on my blog?&lt;/a&gt;
+on Terence Eden's blog. It’s an article where he shares his experience tending to outgoing links in his blog. He shares&lt;br/&gt;
+some interesting data on it as well. I encourage you to have a read.  &lt;/p&gt;
+&lt;p&gt;This is an interesting topic. Let me quote some relevant bits for me to set the scene if you're not bothering to read&lt;br/&gt;
+his full post.  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Why don't I just cURL the URL and see if it responds with a 2xx HTTP code?  &lt;/p&gt;
+&lt;p&gt;I used to use an automated checker to test my links. But spam sites lie. Lots of the dead sites have been taken over by scammers, spammers, and AI grifters. They return an HTTP OK and then serve up advertising. Yeuch! So now I spend each morning Tending To My Digital Garden and manually checking the links.  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So I'm sat here thinking, what if... the scammers could not lie? Or rather, what if you could detect it when they did? Enter⸺  &lt;/p&gt;
+&lt;h2 id="link-seals"&gt;Link seals&lt;/h2&gt;
+&lt;h3 id="premise"&gt;Premise&lt;/h3&gt;
+&lt;p&gt;My proposal is simple; hyperlinks on a webpage could carry information that's going to make it possible to verify if the&lt;br/&gt;
+source linked contains the expected content. The web page that has the link should define a &lt;strong&gt;link seal check&lt;/strong&gt; function, which can be used&lt;br/&gt;
+to programmatically run through the content on the target page to verify if its content has changed drastically.  &lt;/p&gt;
+&lt;h3 id="example"&gt;Example&lt;/h3&gt;
+&lt;p&gt;Let’s assume our target page is the following simple hello world page, and it lives on &lt;a href="https://my.site/" linksealkey="Hello World"&gt;https://my.site/&lt;/a&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&amp;lt;&lt;span&gt;html&lt;/span&gt;&amp;gt;  
+  &amp;lt;&lt;span&gt;head&lt;/span&gt;&amp;gt;  
+    &amp;lt;&lt;span&gt;title&lt;/span&gt;&amp;gt;Hello world&amp;lt;/&lt;span&gt;title&lt;/span&gt;&amp;gt;  
+  &amp;lt;/&lt;span&gt;head&lt;/span&gt;&amp;gt;  
+  &amp;lt;&lt;span&gt;body&lt;/span&gt;&amp;gt;  
+      &amp;lt;&lt;span&gt;p&lt;/span&gt;&amp;gt;Hello world!&amp;lt;/&lt;span&gt;p&lt;/span&gt;&amp;gt;  
+      &amp;lt;&lt;span&gt;p&lt;/span&gt;&amp;gt;I'm a website.&amp;lt;/&lt;span&gt;p&lt;/span&gt;&amp;gt;  
+  &amp;lt;/&lt;span&gt;body&lt;/span&gt;&amp;gt;  
+&amp;lt;/&lt;span&gt;html&lt;/span&gt;&amp;gt;  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Take the following key function.  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; &lt;/span&gt;linkSealCheck(href,&lt;span&gt; &lt;/span&gt;key)&lt;span&gt; &lt;/span&gt;{&lt;span&gt;  &lt;/span&gt;
+&lt;span&gt;  &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; &lt;/span&gt;fetch(href)
+&lt;span&gt;    &lt;/span&gt;.then(response&lt;span&gt; &lt;/span&gt;=&amp;gt;&lt;span&gt; &lt;/span&gt;response.text())
+&lt;span&gt;    &lt;/span&gt;.then(content&lt;span&gt; &lt;/span&gt;=&amp;gt;&lt;span&gt; &lt;/span&gt;content.includes(key))
+&lt;span&gt;    &lt;/span&gt;.&lt;span&gt;catch&lt;/span&gt;(()&lt;span&gt; &lt;/span&gt;=&amp;gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;false&lt;/span&gt;);&lt;span&gt; &lt;/span&gt;&lt;span&gt;// Return false if the fetch fails&lt;/span&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The link on our webpage would look like:  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&amp;lt;&lt;span&gt;a&lt;/span&gt; &lt;span&gt;href&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;'https://my.site/'&lt;/span&gt; &lt;span&gt;linkSealKey&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;'Hello world'&lt;/span&gt;&amp;gt;My awesome site&amp;lt;/&lt;span&gt;a&lt;/span&gt;&amp;gt;  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;When we want to verify the links on our blog, we can go through all &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tags and call the &lt;strong&gt;linkSealCheck&lt;/strong&gt; function for each one:  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; &lt;/span&gt;verifyLinks()&lt;span&gt; &lt;/span&gt;{
+&lt;span&gt;  &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; &lt;/span&gt;links&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;document&lt;/span&gt;.querySelectorAll(&lt;span&gt;'a[linkSealKey]'&lt;/span&gt;);
+&lt;span&gt;  &lt;/span&gt;links.forEach(link&lt;span&gt; &lt;/span&gt;=&amp;gt;&lt;span&gt; &lt;/span&gt;{
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; &lt;/span&gt;href&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;link.href;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; &lt;/span&gt;key&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;link.getAttribute(&lt;span&gt;'linkSealKey'&lt;/span&gt;);
+&lt;span&gt;    &lt;/span&gt;linkSealCheck(href,&lt;span&gt; &lt;/span&gt;key).then(isValid&lt;span&gt; &lt;/span&gt;=&amp;gt;&lt;span&gt; &lt;/span&gt;{
+&lt;span&gt;      &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; &lt;/span&gt;(&lt;span&gt;!&lt;/span&gt;isValid)&lt;span&gt; &lt;/span&gt;{
+&lt;span&gt;        &lt;/span&gt;console.warn(&lt;span&gt;`Link &lt;/span&gt;&lt;span&gt;${&lt;/span&gt;href&lt;span&gt;}&lt;/span&gt;&lt;span&gt; failed the LinkSeal check!`&lt;/span&gt;);
+&lt;span&gt;      &lt;/span&gt;}&lt;span&gt; &lt;/span&gt;&lt;span&gt;else&lt;/span&gt;&lt;span&gt; &lt;/span&gt;{
+&lt;span&gt;        &lt;/span&gt;console.log(&lt;span&gt;`Link &lt;/span&gt;&lt;span&gt;${&lt;/span&gt;href&lt;span&gt;}&lt;/span&gt;&lt;span&gt; passed the LinkSeal check.`&lt;/span&gt;);
+&lt;span&gt;      &lt;/span&gt;}
+&lt;span&gt;    &lt;/span&gt;});
+&lt;span&gt;  &lt;/span&gt;});
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id="public-or-private-seal-check-functions"&gt;Public or Private Seal Check Functions&lt;/h3&gt;
+&lt;p&gt;One important consideration is whether your &lt;strong&gt;link seal&lt;/strong&gt; check function should be public or private.  &lt;/p&gt;
+&lt;h4 id="public"&gt;Public&lt;/h4&gt;
+&lt;p&gt;A public &lt;strong&gt;link seal&lt;/strong&gt; function allows anyone to verify the content of your links. This improves transparency and helps others keep integrity checks
+on your website indefinitely. However, it also opens the possibility for abuse, as malicious actors could use the function to scrape information or 
+exploit your verification mechanism. However, this is hughly unlikely except for very specific cases. This is in no way a completely trustable verification
+method, but it should do the trick most of the time.&lt;/p&gt;
+&lt;h4 id="private"&gt;Private&lt;/h4&gt;
+&lt;p&gt;A private &lt;strong&gt;link seal&lt;/strong&gt; function is less exposed and can help protect your implementation from misuse. However, this approach limits the ability of third 
+parties (e.g., search engines or link-checking tools) to independently verify your links, potentially reducing the reach of your verification mechanism.
+However, this is rarely a case for concern, as you'll be doing the gardening for the foreseeable future.&lt;/p&gt;
+&lt;h3 id="applications"&gt;Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gardening&lt;/strong&gt;: Reduce link rot and ensure outgoing links still point to accurate, relevant information.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Archives&lt;/strong&gt;: Cross-check preserved versions of websites against original content snapshots. In theory, you could programmatically go back in time
+  on the internet archive until you find a version that satisfies your link seal key.
+  Inspired by, again;&lt;blockquote&gt;
+&lt;p&gt;(...)
+2. If the site is dead, or the content isn't there, I stick the URl into the WayBack Machine and pick the archive closest to the publication date.
+(...)
+⸺ Terrence Eden, 'How bad is link rot on my blog?'&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="challenges"&gt;Challenges&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dynamic Content&lt;/strong&gt;: Some sites have rapidly changing content or content that they load with javascript. 
+  the website for our usecase.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tampering&lt;/strong&gt;: A malicious actor could attempt to mimic the expected content to pass checks. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With these challenges in mind |I think &lt;strong&gt;link seal&lt;/strong&gt; could serve as a simple, programmatic way to provide an extra layer of trust for hyperlinks.&lt;br/&gt;
+I'm sure we'd be able to find anchor terms in dynamically loaded websites. The worst case for a false negative is someone clicking on an ad, and the
+worst case for a false positive is you having to update your &lt;strong&gt;link seal&lt;/strong&gt; key.&lt;/p&gt;
+&lt;p&gt;What do you think? Any ideas? Concerns? Do you think this is a big pile of bull? Reach out to tell me and let's discuss. &lt;/p&gt;
+&lt;/main&gt;</description></item><item><title>What I expect from this blog - Misty Step Blog</title><link>https://mistystep.org/blog/this-blog</link><guid>https://mistystep.org/blog/this-blog</guid><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 &lt;div class="categoryTag"&gt;
             blogging
           &lt;/div&gt;
