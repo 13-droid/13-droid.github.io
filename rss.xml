@@ -82,12 +82,11 @@ of having an rss feed to stay in my reading rotation.&lt;/p&gt;
 &lt;p&gt;Legend:
 I'm tagging links in this article with pound/number sign tips. Click on these tags to highlight all tagged links (Requires JS).&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt; &lt;find-tag&gt;#rss&lt;/find-tag&gt;: self-explanatory, really. &lt;/li&gt;
+&lt;li&gt; &lt;find-tag&gt;#rss&lt;/find-tag&gt;: an RSS feed, auto-added into my reader.&lt;/li&gt;
 &lt;li&gt; &lt;find-tag&gt;#blog&lt;/find-tag&gt;: a person's blog &lt;/li&gt;
 &lt;li&gt; &lt;find-tag&gt;#roll&lt;/find-tag&gt;: a person's index of blogs they read/follow &lt;/li&gt;
 &lt;li&gt; &lt;find-tag&gt;#newsletter&lt;/find-tag&gt;: a newsletter they may be curating &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;P.S. &lt;code&gt;#--rss&lt;/code&gt; -&amp;gt; temporarily disabled in my reader&lt;/p&gt;
 &lt;p&gt;All feeds tagged with #rss on this page are automatically included in this reader:&lt;/p&gt;
 &lt;!-- Find all links tagged with #rss and create an rss feed --&gt;
 &lt;!-- If current page has ?feed, go to feed --&gt;
@@ -233,6 +232,8 @@ on their RSS gizmos blog, which is something I spent quite some time on this pas
 &lt;h3 id="silverorange"&gt;SilverOrange&lt;/h3&gt;
 &lt;p&gt;The collective thoughts of web design and development firm silverorange&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://blog.silverorange.com/feed#rss"&gt;https://blog.silverorange.com/feed#rss&lt;/a&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;P.S. &lt;code&gt;#--rss&lt;/code&gt; -&amp;gt; temporarily disabled in my reader&lt;/p&gt;
 &lt;/main&gt;</description></item><item><title>The best _ I ever had - Misty Step Blog</title><link>https://mistystep.org/blog/the-best-i-ever-had</link><guid>https://mistystep.org/blog/the-best-i-ever-had</guid><pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 &lt;div class="categoryTag"&gt;
             travel
