@@ -37,14 +37,14 @@ to programmatically run through the content on the target page to verify if its 
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The link on our webpage would look like:  &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&amp;lt;&lt;span&gt;a&lt;/span&gt; &lt;span&gt;href&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;'https://my.site/'&lt;/span&gt; &lt;span&gt;linkSealKey&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;'Hello world'&lt;/span&gt;&amp;gt;My awesome site&amp;lt;/&lt;span&gt;a&lt;/span&gt;&amp;gt;  
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&amp;lt;&lt;span&gt;a&lt;/span&gt; &lt;span&gt;href&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;'https://my.site/'&lt;/span&gt; &lt;span&gt;linksealkey&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;'Hello world'&lt;/span&gt;&amp;gt;My awesome site&amp;lt;/&lt;span&gt;a&lt;/span&gt;&amp;gt;  
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;When we want to verify the links on our blog, we can go through all &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tags and call the &lt;strong&gt;linkSealCheck&lt;/strong&gt; function for each one:  &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; &lt;/span&gt;keySealVerifier()&lt;span&gt; &lt;/span&gt;{
-&lt;span&gt;  &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; &lt;/span&gt;links&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;document&lt;/span&gt;.querySelectorAll(&lt;span&gt;'a[linkSealKey]'&lt;/span&gt;);
+&lt;span&gt;  &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; &lt;/span&gt;links&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;document&lt;/span&gt;.querySelectorAll(&lt;span&gt;'a[linksealkey]'&lt;/span&gt;);
 &lt;span&gt;  &lt;/span&gt;links.forEach(link&lt;span&gt; &lt;/span&gt;=&amp;gt;&lt;span&gt; &lt;/span&gt;{
 &lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; &lt;/span&gt;href&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;link.href;
-&lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; &lt;/span&gt;key&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;link.getAttribute(&lt;span&gt;'linkSealKey'&lt;/span&gt;);
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; &lt;/span&gt;key&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;link.getAttribute(&lt;span&gt;'linksealkey'&lt;/span&gt;);
 &lt;span&gt;    &lt;/span&gt;linkSealCheck(href,&lt;span&gt; &lt;/span&gt;key).then(isValid&lt;span&gt; &lt;/span&gt;=&amp;gt;&lt;span&gt; &lt;/span&gt;{
 &lt;span&gt;      &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; &lt;/span&gt;(&lt;span&gt;!&lt;/span&gt;isValid)&lt;span&gt; &lt;/span&gt;{
 &lt;span&gt;        &lt;/span&gt;console.warn(&lt;span&gt;`Link &lt;/span&gt;&lt;span&gt;${&lt;/span&gt;href&lt;span&gt;}&lt;/span&gt;&lt;span&gt; failed the LinkSeal check!`&lt;/span&gt;);
