@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>Misty Step Blog</title><link>https://mistystep.org</link><description>This is an RSS feed of my website.</description><item><title>Link seals - a testable links concept proposal - Misty Step Blog</title><link>https://mistystep.org/blog/testable-links</link><guid>https://mistystep.org/blog/testable-links</guid><pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
+<rss version="2.0"><channel><title>Misty Step Blog</title><link>https://mistystep.org</link><description>This is an RSS feed of my website.</description><item><title>Link seals - a testable links concept proposal - Misty Step Blog</title><link>https://mistystep.org/blog/testable-links</link><guid>https://mistystep.org/blog/testable-links</guid><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 &lt;h1 id="link-seals-a-testable-links-concept-proposal"&gt;Link seals - a testable links concept proposal&lt;/h1&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
@@ -24,8 +24,7 @@
 &lt;p&gt;I was reading &lt;a href="https://shkspr.mobi/blog/2024/12/how-bad-is-link-rot-on-my-blog/" linksealkey="Terence Eden"&gt;How bad is link rot on my blog?&lt;/a&gt;
 on Terence Eden's blog. It’s an article where he shares his experience tending to outgoing links in his blog. He shares
 some interesting data on it as well. I encourage you to have a read.  &lt;/p&gt;
-&lt;p&gt;This is an interesting topic. Let me quote some relevant bits for me to set the scene if you're not bothering to read&lt;br/&gt;
-his full post.  &lt;/p&gt;
+&lt;p&gt;This is an interesting topic. Let me quote some relevant bits for me to set the scene if you're not bothering to read his full post.  &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Why don't I just cURL the URL and see if it responds with a 2xx HTTP code?  &lt;/p&gt;
 &lt;p&gt;I used to use an automated checker to test my links. But spam sites lie. Lots of the dead sites have been taken over by scammers, spammers, and AI grifters. They return an HTTP OK and then serve up advertising. Yeuch! So now I spend each morning Tending To My Digital Garden and manually checking the links.  &lt;/p&gt;
