@@ -5,21 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://mistystep.org/static/css/theme.css">
     <link rel="icon" type="image/png" href="https://emoji.dutl.uk/png/64x64/🌫️.png">
-    <title>Link seals - a testable links concept proposal - Misty Step Blog</title>
+    <title>Link seals - self-testing links concept - Misty Step Blog</title>
     
-    <meta property="og:title" name="title" content="Link seals - a testable links concept proposal" />
+    <meta property="og:title" name="title" content="Link seals - self-testing links concept" />
     <meta property="og:image" name="image" content="https://mistystep.org/static/img/default_img.png" />
-    <meta property="og:description" name="description" content="I was reading How bad is link rot on my blog?
-on Terence Eden's blog. It’s an article where he shares his experience tending to outgoing links in his blog...." />
+    <meta property="og:description" name="description" content="Link seals provide a quick soft-check utility for link health on your web spaces." />
     <meta property="og:type" content="website" />
     <meta property="og:url" name="url" content="https://mistystep.org/blog/testable-links">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Link seals - a testable links concept proposal">
-    <meta name="twitter:description" content="I was reading How bad is link rot on my blog?
-on Terence Eden's blog. It’s an article where he shares his experience tending to outgoing links in his blog....">
+    <meta name="twitter:title" content="Link seals - self-testing links concept">
+    <meta name="twitter:description" content="Link seals provide a quick soft-check utility for link health on your web spaces.">
     <meta name="twitter:image" content="https://mistystep.org/static/img/default_img.png">
     <link rel="canonical" href="https://mistystep.org/blog/testable-links" />
-    <meta property="og:pubdate" name="pubdate" content="Wed, 15 Jan 2025 00:00:00 +0000" />
+    <meta property="og:pubdate" name="pubdate" content="Tue, 14 Jan 2025 00:00:00 +0000" />
     
     <!-- Link to headings -->
 <script>
@@ -80,13 +78,27 @@ on Terence Eden's blog. It’s an article where he shares his experience tending
       <div class="content">
         <main>
           
+          <div class="categoryTag">
+            coding
+          </div>
+          
+          <div class="categoryTag">
+            security
+          </div>
+          
+          <div class="categoryTag">
+            automation
+          </div>
+          
           <h1 id="link-seals-a-testable-links-concept-proposal">Link seals - a testable links concept proposal</h1>
 <div class="toc">
 <ul>
 <li><a href="#link-seals-a-testable-links-concept-proposal">Link seals - a testable links concept proposal</a><ul>
-<li><a href="#link-seals">Link seals</a><ul>
+<li><a href="#what-is-a-link-seal">What is a link seal</a><ul>
 <li><a href="#premise">Premise</a></li>
 <li><a href="#example">Example</a></li>
+</ul>
+</li>
 <li><a href="#public-or-private-seal-check-functions">Public or Private Seal Check Functions</a><ul>
 <li><a href="#public">Public</a></li>
 <li><a href="#private">Private</a></li>
@@ -94,8 +106,6 @@ on Terence Eden's blog. It’s an article where he shares his experience tending
 </li>
 <li><a href="#applications">Applications</a></li>
 <li><a href="#challenges">Challenges</a></li>
-</ul>
-</li>
 <li><a href="#live-demo">Live Demo 🚨</a></li>
 </ul>
 </li>
@@ -110,7 +120,7 @@ some interesting data on it as well. I encourage you to have a read.  </p>
 <p>I used to use an automated checker to test my links. But spam sites lie. Lots of the dead sites have been taken over by scammers, spammers, and AI grifters. They return an HTTP OK and then serve up advertising. Yeuch! So now I spend each morning Tending To My Digital Garden and manually checking the links.  </p>
 </blockquote>
 <p>So I'm sat here thinking, what if... the scammers could not lie? Or rather, what if you could detect it when they did? Enter⸺  </p>
-<h2 id="link-seals">Link seals</h2>
+<h2 id="what-is-a-link-seal">What is a link seal</h2>
 <h3 id="premise">Premise</h3>
 <p>My proposal is simple; hyperlinks on a webpage could carry information that's going to make it possible to verify if the
 source linked contains the expected content. The web page that has the link should define a <strong>link seal check</strong> function, which can be used
@@ -156,18 +166,18 @@ to programmatically run through the content on the target page to verify if its 
 </code></pre></div>
 <p>P.S.: This is a very simple implementation of a seal-key pair and a verifier function and it is for illustrative purposes.
 Don't come into my inbox saying muh security. I'm talking about you, @infosec.exchange.</p>
-<h3 id="public-or-private-seal-check-functions">Public or Private Seal Check Functions</h3>
+<h2 id="public-or-private-seal-check-functions">Public or Private Seal Check Functions</h2>
 <p>One (semi) important consideration is whether your <strong>link seal</strong> check function should be public or private.  </p>
-<h4 id="public">Public</h4>
+<h3 id="public">Public</h3>
 <p>A public <strong>link seal</strong> function allows anyone to verify the content of your links. This improves transparency and helps others keep integrity checks
 on your website indefinitely. However, it also opens the possibility for abuse, as malicious actors could use the function to scrape information or
 exploit your verification mechanism. However, this is highly unlikely except for very specific cases. This is in no way a completely trustable verification
 method, but it should do the trick most of the time.</p>
-<h4 id="private">Private</h4>
+<h3 id="private">Private</h3>
 <p>A private <strong>link seal</strong> function is less exposed and can help protect your implementation from misuse. However, this approach limits the ability of third 
 parties (e.g., search engines or link-checking tools) to independently verify your links, potentially reducing the reach of your verification mechanism.
 However, this is rarely a case for concern, as you'll be doing the gardening for the foreseeable future.</p>
-<h3 id="applications">Applications</h3>
+<h2 id="applications">Applications</h2>
 <ul>
 <li><strong>Gardening</strong>: Reduce link rot and ensure outgoing links still point to accurate, relevant information.</li>
 <li><strong>Web Archives</strong>: Cross-check preserved versions of websites against original content snapshots. In theory, you could programmatically go back in time
@@ -180,7 +190,7 @@ However, this is rarely a case for concern, as you'll be doing the gardening for
 </blockquote>
 </li>
 </ul>
-<h3 id="challenges">Challenges</h3>
+<h2 id="challenges">Challenges</h2>
 <ul>
 <li><strong>Dynamic Content</strong>: Some sites have rapidly changing content or content that they load with javascript.</li>
 <li><strong>Tampering</strong>: A malicious actor could attempt to mimic the expected content to pass checks. </li>
