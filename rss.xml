@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>Misty Step Blog</title><link>https://mistystep.org</link><description>This is an RSS feed of my website.</description><item><title>Link seals - self-testing links concept - Misty Step Blog</title><link>https://mistystep.org/blog/testable-links</link><guid>https://mistystep.org/blog/testable-links</guid><pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
+<rss version="2.0"><channel><title>Misty Step Blog</title><link>https://mistystep.org</link><description>This is an RSS feed of my website.</description><item><title>Link seals - self-testing links proof of concept - Misty Step Blog</title><link>https://mistystep.org/blog/testable-links</link><guid>https://mistystep.org/blog/testable-links</guid><pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 &lt;div class="categoryTag"&gt;
             coding
           &lt;/div&gt;
@@ -9,10 +9,10 @@
 &lt;div class="categoryTag"&gt;
             automation
           &lt;/div&gt;
-&lt;h1 id="link-seals-a-testable-links-concept-proposal"&gt;Link seals - a testable links concept proposal&lt;/h1&gt;
+&lt;h1 id="link-seals-self-testing-links-proof-of-concept"&gt;Link seals - self-testing links proof of concept&lt;/h1&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#link-seals-a-testable-links-concept-proposal"&gt;Link seals - a testable links concept proposal&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#link-seals-self-testing-links-proof-of-concept"&gt;Link seals - self-testing links proof of concept&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#what-is-a-link-seal"&gt;What is a link seal&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#premise"&gt;Premise&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#example"&gt;Example&lt;/a&gt;&lt;/li&gt;
