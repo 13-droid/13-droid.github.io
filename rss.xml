@@ -220,7 +220,6 @@ I'm tagging links in this article with pound/number sign tips. Click on these ta
 &lt;li&gt;&lt;a href="#diamond-geezer"&gt;Diamond Geezer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#mitxela"&gt;Mitxela&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#jeff-atwood"&gt;Jeff Atwood&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#nicolas-nova"&gt;Nicolas Nova †&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#anne-laure-le-cunff"&gt;Anne-Laure Le Cunff&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#stefan-bohacek"&gt;Stefan Bohacek&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#ryan-barrett"&gt;Ryan Barrett&lt;/a&gt;&lt;/li&gt;
@@ -238,6 +237,11 @@ I'm tagging links in this article with pound/number sign tips. Click on these ta
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="#orgs-co-ops"&gt;Orgs &amp;amp; Co-ops&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#silverorange"&gt;SilverOrange&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#honorable-mentions"&gt;Honorable mentions&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#aaron-swartz"&gt;Aaron Swartz †&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#nicolas-nova"&gt;Nicolas Nova †&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -295,10 +299,6 @@ every phenomenon actually has a scientific explanation &lt;a href="https://mitxe
 &lt;p&gt;Stackexchange cofounder. Seasoned dev, rarely writes anymore. Has some good gems on his blog (live since 2004).&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://blog.codinghorror.com/#blog"&gt;https://blog.codinghorror.com/#blog&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://blog.codinghorror.com/rss/#rss"&gt;https://blog.codinghorror.com/rss/#rss&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="nicolas-nova"&gt;Nicolas Nova †&lt;/h3&gt;
-&lt;p&gt;Anthropologist, design researcher.&lt;/p&gt;
-&lt;p&gt;Blog in english &lt;a href="https://www.nicolasnova.net/pasta-and-vinegar#blog"&gt;https://www.nicolasnova.net/pasta-and-vinegar#blog&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Blog in french &lt;a href="https://www.nicolasnova.net/carnet#blog"&gt;https://www.nicolasnova.net/carnet#blog&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="anne-laure-le-cunff"&gt;Anne-Laure Le Cunff&lt;/h3&gt;
 &lt;p&gt;Mindfulness at work &lt;a href="https://nesslabs.com/#blog"&gt;https://nesslabs.com/#blog&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="stefan-bohacek"&gt;Stefan Bohacek&lt;/h3&gt;
@@ -356,6 +356,16 @@ on their RSS gizmos blog, which is something I spent quite some time on this pas
 &lt;h3 id="silverorange"&gt;SilverOrange&lt;/h3&gt;
 &lt;p&gt;The collective thoughts of web design and development firm silverorange&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://blog.silverorange.com/feed#rss"&gt;https://blog.silverorange.com/feed#rss&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="honorable-mentions"&gt;Honorable mentions&lt;/h2&gt;
+&lt;h3 id="aaron-swartz"&gt;Aaron Swartz †&lt;/h3&gt;
+&lt;p&gt;I love Aaron Swartz's writing. And his blog is a good source to go back to every now and then.
+Rest in peace.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.aaronsw.com/weblog/"&gt;http://www.aaronsw.com/weblog/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.aaronsw.com/weblog/index.xml/#rss"&gt;http://www.aaronsw.com/weblog/index.xml/#rss&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="nicolas-nova"&gt;Nicolas Nova †&lt;/h3&gt;
+&lt;p&gt;Anthropologist, design researcher.&lt;/p&gt;
+&lt;p&gt;Blog in english &lt;a href="https://www.nicolasnova.net/pasta-and-vinegar#blog"&gt;https://www.nicolasnova.net/pasta-and-vinegar#blog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Blog in french &lt;a href="https://www.nicolasnova.net/carnet#blog"&gt;https://www.nicolasnova.net/carnet#blog&lt;/a&gt;&lt;/p&gt;
 &lt;hr/&gt;
 &lt;p&gt;P.S. &lt;code&gt;#--rss&lt;/code&gt; -&amp;gt; temporarily disabled in my reader&lt;/p&gt;
 &lt;/main&gt;</description></item><item><title>The best _ I ever had - Misty Step Blog</title><link>https://mistystep.org/blog/the-best-i-ever-had</link><guid>https://mistystep.org/blog/the-best-i-ever-had</guid><pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
