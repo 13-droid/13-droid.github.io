@@ -113,7 +113,7 @@ some interesting data on it as well. I encourage you to have a read.  </p>
 <h2 id="link-seals">Link seals</h2>
 <h3 id="premise">Premise</h3>
 <p>My proposal is simple; hyperlinks on a webpage could carry information that's going to make it possible to verify if the
-source linked contains the expected content. The web page that has the link should define a <strong>link seal check</strong> function, which can be used<br/>
+source linked contains the expected content. The web page that has the link should define a <strong>link seal check</strong> function, which can be used
 to programmatically run through the content on the target page to verify if its content has changed drastically.  </p>
 <h3 id="example">Example</h3>
 <p>Let’s assume our target page is the following simple hello world page, and it lives on <a href="https://my.site/" linksealkey="Hello World">https://my.site/</a></p>
@@ -160,7 +160,7 @@ Don't come into my inbox saying muh security. I'm talking about you, @infosec.ex
 <p>One (semi) important consideration is whether your <strong>link seal</strong> check function should be public or private.  </p>
 <h4 id="public">Public</h4>
 <p>A public <strong>link seal</strong> function allows anyone to verify the content of your links. This improves transparency and helps others keep integrity checks
-on your website indefinitely. However, it also opens the possibility for abuse, as malicious actors could use the function to scrape information or 
+on your website indefinitely. However, it also opens the possibility for abuse, as malicious actors could use the function to scrape information or
 exploit your verification mechanism. However, this is highly unlikely except for very specific cases. This is in no way a completely trustable verification
 method, but it should do the trick most of the time.</p>
 <h4 id="private">Private</h4>
@@ -169,7 +169,7 @@ parties (e.g., search engines or link-checking tools) to independently verify yo
 However, this is rarely a case for concern, as you'll be doing the gardening for the foreseeable future.</p>
 <h3 id="applications">Applications</h3>
 <ul>
-<li><strong>Gardening</strong>: Reduce link rot and ensure outgoing links still point to accurate, relevant information.  </li>
+<li><strong>Gardening</strong>: Reduce link rot and ensure outgoing links still point to accurate, relevant information.</li>
 <li><strong>Web Archives</strong>: Cross-check preserved versions of websites against original content snapshots. In theory, you could programmatically go back in time
   on the internet archive until you find a version that satisfies your link seal key.
   Inspired by, again;<blockquote>
@@ -182,11 +182,10 @@ However, this is rarely a case for concern, as you'll be doing the gardening for
 </ul>
 <h3 id="challenges">Challenges</h3>
 <ul>
-<li><strong>Dynamic Content</strong>: Some sites have rapidly changing content or content that they load with javascript. 
-  the website for our usecase.</li>
+<li><strong>Dynamic Content</strong>: Some sites have rapidly changing content or content that they load with javascript.</li>
 <li><strong>Tampering</strong>: A malicious actor could attempt to mimic the expected content to pass checks. </li>
 </ul>
-<p>With these challenges in mind |I think <strong>link seal</strong> could serve as a simple, programmatic way to provide an extra layer of trust for hyperlinks.<br/>
+<p>With these challenges in mind |I think <strong>link seal</strong> could serve as a simple, programmatic way to provide an extra layer of trust for hyperlinks.
 I'm sure we'd be able to find anchor terms in dynamically loaded websites. The worst case for a false negative is someone clicking on an ad, and the
 worst case for a false positive is you having to update your <strong>link seal</strong> key.</p>
 <p>What do you think? Any ideas? Concerns? Do you think this is a big pile of bull? Reach out to tell me and let's discuss. Find me on <a href="https://mastodon.social/@cemre" linksealkey="some nonsense i would not say">mastodon</a>.</p>

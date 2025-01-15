@@ -33,7 +33,7 @@ some interesting data on it as well. I encourage you to have a read.  &lt;/p&gt;
 &lt;h2 id="link-seals"&gt;Link seals&lt;/h2&gt;
 &lt;h3 id="premise"&gt;Premise&lt;/h3&gt;
 &lt;p&gt;My proposal is simple; hyperlinks on a webpage could carry information that's going to make it possible to verify if the
-source linked contains the expected content. The web page that has the link should define a &lt;strong&gt;link seal check&lt;/strong&gt; function, which can be used&lt;br/&gt;
+source linked contains the expected content. The web page that has the link should define a &lt;strong&gt;link seal check&lt;/strong&gt; function, which can be used
 to programmatically run through the content on the target page to verify if its content has changed drastically.  &lt;/p&gt;
 &lt;h3 id="example"&gt;Example&lt;/h3&gt;
 &lt;p&gt;Let’s assume our target page is the following simple hello world page, and it lives on &lt;a href="https://my.site/" linksealkey="Hello World"&gt;https://my.site/&lt;/a&gt;&lt;/p&gt;
@@ -80,7 +80,7 @@ Don't come into my inbox saying muh security. I'm talking about you, @infosec.ex
 &lt;p&gt;One (semi) important consideration is whether your &lt;strong&gt;link seal&lt;/strong&gt; check function should be public or private.  &lt;/p&gt;
 &lt;h4 id="public"&gt;Public&lt;/h4&gt;
 &lt;p&gt;A public &lt;strong&gt;link seal&lt;/strong&gt; function allows anyone to verify the content of your links. This improves transparency and helps others keep integrity checks
-on your website indefinitely. However, it also opens the possibility for abuse, as malicious actors could use the function to scrape information or 
+on your website indefinitely. However, it also opens the possibility for abuse, as malicious actors could use the function to scrape information or
 exploit your verification mechanism. However, this is highly unlikely except for very specific cases. This is in no way a completely trustable verification
 method, but it should do the trick most of the time.&lt;/p&gt;
 &lt;h4 id="private"&gt;Private&lt;/h4&gt;
@@ -89,7 +89,7 @@ parties (e.g., search engines or link-checking tools) to independently verify yo
 However, this is rarely a case for concern, as you'll be doing the gardening for the foreseeable future.&lt;/p&gt;
 &lt;h3 id="applications"&gt;Applications&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Gardening&lt;/strong&gt;: Reduce link rot and ensure outgoing links still point to accurate, relevant information.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gardening&lt;/strong&gt;: Reduce link rot and ensure outgoing links still point to accurate, relevant information.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Web Archives&lt;/strong&gt;: Cross-check preserved versions of websites against original content snapshots. In theory, you could programmatically go back in time
   on the internet archive until you find a version that satisfies your link seal key.
   Inspired by, again;&lt;blockquote&gt;
@@ -102,11 +102,10 @@ However, this is rarely a case for concern, as you'll be doing the gardening for
 &lt;/ul&gt;
 &lt;h3 id="challenges"&gt;Challenges&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Dynamic Content&lt;/strong&gt;: Some sites have rapidly changing content or content that they load with javascript. 
-  the website for our usecase.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dynamic Content&lt;/strong&gt;: Some sites have rapidly changing content or content that they load with javascript.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Tampering&lt;/strong&gt;: A malicious actor could attempt to mimic the expected content to pass checks. &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;With these challenges in mind |I think &lt;strong&gt;link seal&lt;/strong&gt; could serve as a simple, programmatic way to provide an extra layer of trust for hyperlinks.&lt;br/&gt;
+&lt;p&gt;With these challenges in mind |I think &lt;strong&gt;link seal&lt;/strong&gt; could serve as a simple, programmatic way to provide an extra layer of trust for hyperlinks.
 I'm sure we'd be able to find anchor terms in dynamically loaded websites. The worst case for a false negative is someone clicking on an ad, and the
 worst case for a false positive is you having to update your &lt;strong&gt;link seal&lt;/strong&gt; key.&lt;/p&gt;
 &lt;p&gt;What do you think? Any ideas? Concerns? Do you think this is a big pile of bull? Reach out to tell me and let's discuss. Find me on &lt;a href="https://mastodon.social/@cemre" linksealkey="some nonsense i would not say"&gt;mastodon&lt;/a&gt;.&lt;/p&gt;
