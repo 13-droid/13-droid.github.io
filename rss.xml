@@ -32,7 +32,7 @@ some interesting data on it as well. I encourage you to have a read.  &lt;/p&gt;
 &lt;p&gt;So I'm sat here thinking, what if... the scammers could not lie? Or rather, what if you could detect it when they did? Enter⸺  &lt;/p&gt;
 &lt;h2 id="link-seals"&gt;Link seals&lt;/h2&gt;
 &lt;h3 id="premise"&gt;Premise&lt;/h3&gt;
-&lt;p&gt;My proposal is simple; hyperlinks on a webpage could carry information that's going to make it possible to verify if the&lt;br/&gt;
+&lt;p&gt;My proposal is simple; hyperlinks on a webpage could carry information that's going to make it possible to verify if the
 source linked contains the expected content. The web page that has the link should define a &lt;strong&gt;link seal check&lt;/strong&gt; function, which can be used&lt;br/&gt;
 to programmatically run through the content on the target page to verify if its content has changed drastically.  &lt;/p&gt;
 &lt;h3 id="example"&gt;Example&lt;/h3&gt;
