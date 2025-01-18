@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>Misty Step Blog</title><link>https://mistystep.org</link><description>This is an RSS feed of my website.</description><item><title>Why I left Twitter &amp; why I chose Mastodon over Bluesky - Misty Step Blog</title><link>https://mistystep.org/blog/leaving-twitter-for-mastodon</link><guid>https://mistystep.org/blog/leaving-twitter-for-mastodon</guid><pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
+<rss version="2.0"><channel><title>Misty Step Blog</title><link>https://mistystep.org</link><description>This is an RSS feed of my website.</description><item><title>Why I left Twitter &amp; why I chose Mastodon over Bluesky - Misty Step Blog</title><link>https://mistystep.org/blog/leaving-twitter-for-mastodon</link><guid>https://mistystep.org/blog/leaving-twitter-for-mastodon</guid><pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 &lt;h1 id="why-i-left-twitter-why-i-chose-mastodon-over-bluesky"&gt;Why I left Twitter &amp;amp; why I chose Mastodon over Bluesky&lt;/h1&gt;
 &lt;p&gt;I was responding to a mutual on mastodon, who I met on Twitter. And my response didn't fit in a message. So I figured I could share it here too.&lt;/p&gt;
 &lt;h2 id="1-the-algorithm"&gt;1. The Algorithm&lt;/h2&gt;
@@ -22,7 +22,7 @@ right wing[4]. Which really takes from the experience. I don't want to see that 
 care about american politics all that much. &lt;/p&gt;
 &lt;p&gt;[3] &lt;a href="https://www.theverge.com/2023/2/14/23600358/elon-musk-tweets-algorithm-changes-twitter"&gt;https://www.theverge.com/2023/2/14/23600358/elon-musk-tweets-algorithm-changes-twitter&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[4] &lt;a href="https://www.independent.co.uk/tech/elon-musk-trump-x-algorithm-bias-b2640976.html"&gt;https://www.independent.co.uk/tech/elon-musk-trump-x-algorithm-bias-b2640976.html&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="3-decentralization-freedom-of-control"&gt;3. Decentralization &amp;amp; freedom of control&lt;/h1&gt;
+&lt;h2 id="3-decentralization-freedom-of-control"&gt;3. Decentralization &amp;amp; freedom of control&lt;/h2&gt;
 &lt;p&gt;I don't like the idea of trusting my content &amp;amp; data to a centralized company, with an incentive to use anything I produce there for fiscal gain.&lt;/p&gt;
 &lt;p&gt;We have way too many billionaires already and they are making money off these platforms, by what? Showing us promoted content, ads, selling our
 data to the highest bidder. Instead I wanted my social interaction space to be a non-profit. &lt;/p&gt;
@@ -33,7 +33,7 @@ can never be killed, it can never be controlled except for by its participants t
 or individuals shouldering costs. There are no ads, There is no incentive to turn a profit.&lt;/p&gt;
 &lt;p&gt;I like the idea of a decentralized web where no one is hoarding massive wealth on a community's back. With my move to mastodon I aim to be just
 one speck in the wave to speed up our transition from Twitter to a federated space because I think that's the direction of the web's  progress to freedom. &lt;/p&gt;
-&lt;h1 id="4-the-protocol"&gt;4. The Protocol&lt;/h1&gt;
+&lt;h2 id="4-the-protocol"&gt;4. The Protocol&lt;/h2&gt;
 &lt;p&gt;One of the significant factors in my decision was the protocol underlying Mastodon: ActivityPub. ActivityPub is an open, decentralized protocol
 that powers the Fediverse—a collection of interconnected platforms like Mastodon, PeerTube (for videos), Pixelfed (for photos), and more, older
 bespoke social spheres around the world have started using ActivityPub to get into the federated space. I think its wonderful, a dream come true.
