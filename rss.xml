@@ -52,15 +52,15 @@ ActivityPub demonstrates its effectiveness as a unifying standard for the decent
 seems unnecessary and counterproductive when the goal should be fostering unity and collaboration.&lt;/p&gt;
 &lt;p&gt;[5] &lt;a href="https://news.ycombinator.com/item?id=35881905"&gt;https://news.ycombinator.com/item?id=35881905&lt;/a&gt;&lt;/p&gt;
 &lt;/main&gt;</description></item><item><title>Link seals - self-testing links proof of concept - Misty Step Blog</title><link>https://mistystep.org/blog/testable-links</link><guid>https://mistystep.org/blog/testable-links</guid><pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
-&lt;div class="categoryTag"&gt;
+&lt;categorytag&gt;
             coding
-          &lt;/div&gt;
-&lt;div class="categoryTag"&gt;
+          &lt;/categorytag&gt;
+&lt;categorytag&gt;
             security
-          &lt;/div&gt;
-&lt;div class="categoryTag"&gt;
+          &lt;/categorytag&gt;
+&lt;categorytag&gt;
             automation
-          &lt;/div&gt;
+          &lt;/categorytag&gt;
 &lt;h1 id="link-seals-self-testing-links-proof-of-concept"&gt;Link seals - self-testing links proof of concept&lt;/h1&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
@@ -175,12 +175,12 @@ worst case for a false positive is you having to update your &lt;strong&gt;link 
 &lt;div id="linkSealLogs"&gt;&lt;/div&gt;
 
 &lt;/main&gt;</description></item><item><title>What I expect from this blog - Misty Step Blog</title><link>https://mistystep.org/blog/this-blog</link><guid>https://mistystep.org/blog/this-blog</guid><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
-&lt;div class="categoryTag"&gt;
+&lt;categorytag&gt;
             blogging
-          &lt;/div&gt;
-&lt;div class="categoryTag"&gt;
+          &lt;/categorytag&gt;
+&lt;categorytag&gt;
             generic
-          &lt;/div&gt;
+          &lt;/categorytag&gt;
 &lt;h1 id="what-i-expect-from-this-blog"&gt;What I expect from this blog&lt;/h1&gt;
 &lt;p&gt;I do have another blog, where I write about more serious computer-science stuff. 
 But this one is not that. However, as the now-owner of two blogs on the world wide web,
@@ -434,15 +434,15 @@ Rest in peace.&lt;/p&gt;
 &lt;hr/&gt;
 &lt;p&gt;P.S. &lt;code&gt;#--rss&lt;/code&gt; -&amp;gt; temporarily disabled in my reader&lt;/p&gt;
 &lt;/main&gt;</description></item><item><title>The best _ I ever had - Misty Step Blog</title><link>https://mistystep.org/blog/the-best-i-ever-had</link><guid>https://mistystep.org/blog/the-best-i-ever-had</guid><pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
-&lt;div class="categoryTag"&gt;
+&lt;categorytag&gt;
             travel
-          &lt;/div&gt;
-&lt;div class="categoryTag"&gt;
+          &lt;/categorytag&gt;
+&lt;categorytag&gt;
             experience
-          &lt;/div&gt;
-&lt;div class="categoryTag"&gt;
+          &lt;/categorytag&gt;
+&lt;categorytag&gt;
             food
-          &lt;/div&gt;
+          &lt;/categorytag&gt;
 &lt;h1 id="the-best-_-i-ever-had"&gt;The best _ I ever had&lt;/h1&gt;
 &lt;p&gt;A register of places where I had the best ever x, whatever x may be.&lt;/p&gt;
 &lt;div class="toc"&gt;
@@ -481,12 +481,12 @@ good of an experience.&lt;/p&gt;
 &lt;small&gt;On the way back from Aladağlar (taken with SONY DSC P200)&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 &lt;/main&gt;</description></item><item><title>Useful online tools - Misty Step Blog</title><link>https://mistystep.org/blog/useful-online-tools</link><guid>https://mistystep.org/blog/useful-online-tools</guid><pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
-&lt;div class="categoryTag"&gt;
+&lt;categorytag&gt;
             web
-          &lt;/div&gt;
-&lt;div class="categoryTag"&gt;
+          &lt;/categorytag&gt;
+&lt;categorytag&gt;
             tools
-          &lt;/div&gt;
+          &lt;/categorytag&gt;
 &lt;h1 id="useful-online-tools"&gt;Useful online tools&lt;/h1&gt;
 &lt;p&gt;This is my index of useful online tools. I have a few tenets: No login, does the job well, 
 doesn't beg you for spare coin.&lt;/p&gt;
@@ -502,15 +502,15 @@ given time constraint &lt;strong&gt;with public transport&lt;/strong&gt;. Great 
 commute neighbourhoods for your job, or finding places to visit in the weekend.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.mapnificent.net/london"&gt;https://www.mapnificent.net/london&lt;/a&gt;&lt;/p&gt;
 &lt;/main&gt;</description></item><item><title>How I manage my passwords - Misty Step Blog</title><link>https://mistystep.org/blog/i-hate-password-managers</link><guid>https://mistystep.org/blog/i-hate-password-managers</guid><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
-&lt;div class="categoryTag"&gt;
+&lt;categorytag&gt;
             computers
-          &lt;/div&gt;
-&lt;div class="categoryTag"&gt;
+          &lt;/categorytag&gt;
+&lt;categorytag&gt;
             security
-          &lt;/div&gt;
-&lt;div class="categoryTag"&gt;
+          &lt;/categorytag&gt;
+&lt;categorytag&gt;
             privacy
-          &lt;/div&gt;
+          &lt;/categorytag&gt;
 &lt;h1 id="how-i-manage-my-passwords"&gt;How I manage my passwords&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;I. hate. password. managers.&lt;/strong&gt; And you should too. Please allow me to teach you to never need them again, not before a quick rant.&lt;/p&gt;
 &lt;h2 id="pwned"&gt;Pwned!&lt;/h2&gt;
