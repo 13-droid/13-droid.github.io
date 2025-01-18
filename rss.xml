@@ -52,15 +52,9 @@ ActivityPub demonstrates its effectiveness as a unifying standard for the decent
 seems unnecessary and counterproductive when the goal should be fostering unity and collaboration.&lt;/p&gt;
 &lt;p&gt;[5] &lt;a href="https://news.ycombinator.com/item?id=35881905"&gt;https://news.ycombinator.com/item?id=35881905&lt;/a&gt;&lt;/p&gt;
 &lt;/main&gt;</description></item><item><title>Link seals - self-testing links proof of concept - Misty Step Blog</title><link>https://mistystep.org/blog/testable-links</link><guid>https://mistystep.org/blog/testable-links</guid><pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
-&lt;categorytag&gt;
-            coding
-          &lt;/categorytag&gt;
-&lt;categorytag&gt;
-            security
-          &lt;/categorytag&gt;
-&lt;categorytag&gt;
-            automation
-          &lt;/categorytag&gt;
+
+
+
 &lt;h1 id="link-seals-self-testing-links-proof-of-concept"&gt;Link seals - self-testing links proof of concept&lt;/h1&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
@@ -174,13 +168,9 @@ worst case for a false positive is you having to update your &lt;strong&gt;link 
 &lt;p&gt;Here's an MVP implementation of linkseal running on your browser! (I hope this is working because it would be so embarassing if not)&lt;/p&gt;
 &lt;div id="linkSealLogs"&gt;&lt;/div&gt;
 
-&lt;/main&gt;</description></item><item><title>What I expect from this blog - Misty Step Blog</title><link>https://mistystep.org/blog/this-blog</link><guid>https://mistystep.org/blog/this-blog</guid><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
-&lt;categorytag&gt;
-            blogging
-          &lt;/categorytag&gt;
-&lt;categorytag&gt;
-            generic
-          &lt;/categorytag&gt;
+&lt;/main&gt;</description><category>coding</category><category>security</category><category>automation</category></item><item><title>What I expect from this blog - Misty Step Blog</title><link>https://mistystep.org/blog/this-blog</link><guid>https://mistystep.org/blog/this-blog</guid><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
+
+
 &lt;h1 id="what-i-expect-from-this-blog"&gt;What I expect from this blog&lt;/h1&gt;
 &lt;p&gt;I do have another blog, where I write about more serious computer-science stuff. 
 But this one is not that. However, as the now-owner of two blogs on the world wide web,
@@ -239,7 +229,7 @@ the stream of their mind runs more clearly than tweets or toots. And see what th
 &lt;em&gt;their&lt;/em&gt; own little corner of the web. What they are passionate about and think about enough that
 they want to share all their thinking with the world. And I'd be giving anyone who's interested 
 a window into mine.&lt;/p&gt;
-&lt;/main&gt;</description></item><item><title>Quoting Manuel Moreale - Misty Step Blog</title><link>https://mistystep.org/blog/output-2025</link><guid>https://mistystep.org/blog/output-2025</guid><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
+&lt;/main&gt;</description><category>blogging</category><category>generic</category></item><item><title>Quoting Manuel Moreale - Misty Step Blog</title><link>https://mistystep.org/blog/output-2025</link><guid>https://mistystep.org/blog/output-2025</guid><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 &lt;h1 id="quoting-manuel-moreale"&gt;Quoting Manuel Moreale&lt;/h1&gt;
 &lt;p&gt;Manuel's new years resolution closely resembles what I've been murmuring to myself for a couple years and I have the same wishes.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -434,15 +424,9 @@ Rest in peace.&lt;/p&gt;
 &lt;hr/&gt;
 &lt;p&gt;P.S. &lt;code&gt;#--rss&lt;/code&gt; -&amp;gt; temporarily disabled in my reader&lt;/p&gt;
 &lt;/main&gt;</description></item><item><title>The best _ I ever had - Misty Step Blog</title><link>https://mistystep.org/blog/the-best-i-ever-had</link><guid>https://mistystep.org/blog/the-best-i-ever-had</guid><pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
-&lt;categorytag&gt;
-            travel
-          &lt;/categorytag&gt;
-&lt;categorytag&gt;
-            experience
-          &lt;/categorytag&gt;
-&lt;categorytag&gt;
-            food
-          &lt;/categorytag&gt;
+
+
+
 &lt;h1 id="the-best-_-i-ever-had"&gt;The best _ I ever had&lt;/h1&gt;
 &lt;p&gt;A register of places where I had the best ever x, whatever x may be.&lt;/p&gt;
 &lt;div class="toc"&gt;
@@ -480,13 +464,9 @@ good of an experience.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://github.com/user-attachments/assets/4614a3f3-c002-4cd0-9eea-1660ca26ff2c" style="max-width:100%;"/&gt;
 &lt;small&gt;On the way back from Aladağlar (taken with SONY DSC P200)&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
-&lt;/main&gt;</description></item><item><title>Useful online tools - Misty Step Blog</title><link>https://mistystep.org/blog/useful-online-tools</link><guid>https://mistystep.org/blog/useful-online-tools</guid><pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
-&lt;categorytag&gt;
-            web
-          &lt;/categorytag&gt;
-&lt;categorytag&gt;
-            tools
-          &lt;/categorytag&gt;
+&lt;/main&gt;</description><category>travel</category><category>experience</category><category>food</category></item><item><title>Useful online tools - Misty Step Blog</title><link>https://mistystep.org/blog/useful-online-tools</link><guid>https://mistystep.org/blog/useful-online-tools</guid><pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
+
+
 &lt;h1 id="useful-online-tools"&gt;Useful online tools&lt;/h1&gt;
 &lt;p&gt;This is my index of useful online tools. I have a few tenets: No login, does the job well, 
 doesn't beg you for spare coin.&lt;/p&gt;
@@ -501,16 +481,10 @@ client-side product. God knows I like client-side tools!&lt;/p&gt;
 given time constraint &lt;strong&gt;with public transport&lt;/strong&gt;. Great tool for finding possible short 
 commute neighbourhoods for your job, or finding places to visit in the weekend.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.mapnificent.net/london"&gt;https://www.mapnificent.net/london&lt;/a&gt;&lt;/p&gt;
-&lt;/main&gt;</description></item><item><title>How I manage my passwords - Misty Step Blog</title><link>https://mistystep.org/blog/i-hate-password-managers</link><guid>https://mistystep.org/blog/i-hate-password-managers</guid><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
-&lt;categorytag&gt;
-            computers
-          &lt;/categorytag&gt;
-&lt;categorytag&gt;
-            security
-          &lt;/categorytag&gt;
-&lt;categorytag&gt;
-            privacy
-          &lt;/categorytag&gt;
+&lt;/main&gt;</description><category>web</category><category>tools</category></item><item><title>How I manage my passwords - Misty Step Blog</title><link>https://mistystep.org/blog/i-hate-password-managers</link><guid>https://mistystep.org/blog/i-hate-password-managers</guid><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
+
+
+
 &lt;h1 id="how-i-manage-my-passwords"&gt;How I manage my passwords&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;I. hate. password. managers.&lt;/strong&gt; And you should too. Please allow me to teach you to never need them again, not before a quick rant.&lt;/p&gt;
 &lt;h2 id="pwned"&gt;Pwned!&lt;/h2&gt;
@@ -625,6 +599,6 @@ commute neighbourhoods for your job, or finding places to visit in the weekend.&
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/2c64d3bd-afa8-4ccf-913d-6b3411c99af6" style="max-width:100%;"/&gt;
 &lt;small&gt;People can see patterns where they are not, and may not see them where they are.&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;No, genius. They would not. First of all hacking doesn't really work like that anymore, we're not in 2005. Nobody "hacks your password". They get you to change it by pretending they are police officers who think you're a terrorist. But even if someone were to get a hold of your password for facebook, &lt;code&gt;12.koom?4&lt;/code&gt;, do you think they would go "hold on a second!!!! 12 is exactly 5 more than the number of letters in facebook! If this has a &lt;code&gt;!&lt;/code&gt; in it, surely a website with a vowel at the end of their name would have a &lt;code&gt;?&lt;/code&gt;"? No.&lt;/p&gt;
-&lt;/main&gt;</description></item><item><title> - Misty Step Blog</title><link>https://mistystep.org/blog/quick/test</link><guid>https://mistystep.org/blog/quick/test</guid><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
+&lt;/main&gt;</description><category>computers</category><category>security</category><category>privacy</category></item><item><title> - Misty Step Blog</title><link>https://mistystep.org/blog/quick/test</link><guid>https://mistystep.org/blog/quick/test</guid><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 &lt;p&gt;Is this thing on?&lt;/p&gt;
 &lt;/main&gt;</description></item></channel></rss>
