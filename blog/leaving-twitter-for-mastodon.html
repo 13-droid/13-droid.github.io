@@ -131,6 +131,114 @@ not beholden to any corporate interest. The fact that platforms across the Fediv
 ActivityPub demonstrates its effectiveness as a unifying standard for the decentralized web. Introducing yet another standard like AT Protocol
 seems unnecessary and counterproductive when the goal should be fostering unity and collaboration.</p>
 <p>[5] <a href="https://news.ycombinator.com/item?id=35881905">https://news.ycombinator.com/item?id=35881905</a></p>
+<p><parsers-ignore id="share-buttons">
+<a href="https://example.com/mastodon" id="mastodon-share" rel="noopener noreferrer" target="_blank">
+<button>
+<img alt="Mastodon" src="https://mistystep.org/blog/static/img/social/mastodon.png"/>
+</button>
+</a></parsers-ignore></p>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code><span style="color: #008000; font-weight: bold">&lt;a</span><span style="color: #BBB"> </span><span style="color: #687822">id=</span><span style="color: #BA2121">"facebook-share"</span><span style="color: #BBB"> </span><span style="color: #687822">target=</span><span style="color: #BA2121">"_blank"</span><span style="color: #BBB"> </span><span style="color: #687822">rel=</span><span style="color: #BA2121">"noopener noreferrer"</span><span style="color: #BBB"> </span><span style="color: #687822">href=</span><span style="color: #BA2121">"https://example.com/facebook"</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;button&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;img</span><span style="color: #BBB"> </span><span style="color: #687822">src=</span><span style="color: #BA2121">"static/img/social/facebook.png"</span><span style="color: #BBB"> </span><span style="color: #687822">alt=</span><span style="color: #BA2121">"Facebook"</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+
+<span style="color: #008000; font-weight: bold">&lt;a</span><span style="color: #BBB"> </span><span style="color: #687822">id=</span><span style="color: #BA2121">"linkedin-share"</span><span style="color: #BBB"> </span><span style="color: #687822">target=</span><span style="color: #BA2121">"_blank"</span><span style="color: #BBB"> </span><span style="color: #687822">rel=</span><span style="color: #BA2121">"noopener noreferrer"</span><span style="color: #BBB"> </span><span style="color: #687822">href=</span><span style="color: #BA2121">"https://example.com/linkedin"</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;button&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;img</span><span style="color: #BBB"> </span><span style="color: #687822">src=</span><span style="color: #BA2121">"static/img/social/linkedin.png"</span><span style="color: #BBB"> </span><span style="color: #687822">alt=</span><span style="color: #BA2121">"LinkedIn"</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+
+<span style="color: #008000; font-weight: bold">&lt;a</span><span style="color: #BBB"> </span><span style="color: #687822">id=</span><span style="color: #BA2121">"bluesky-share"</span><span style="color: #BBB"> </span><span style="color: #687822">target=</span><span style="color: #BA2121">"_blank"</span><span style="color: #BBB"> </span><span style="color: #687822">rel=</span><span style="color: #BA2121">"noopener noreferrer"</span><span style="color: #BBB"> </span><span style="color: #687822">href=</span><span style="color: #BA2121">"https://example.com/bluesky"</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;button&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;img</span><span style="color: #BBB"> </span><span style="color: #687822">src=</span><span style="color: #BA2121">"static/img/social/bluesky.png"</span><span style="color: #BBB"> </span><span style="color: #687822">alt=</span><span style="color: #BA2121">"Bluesky"</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+
+<span style="color: #008000; font-weight: bold">&lt;a</span><span style="color: #BBB"> </span><span style="color: #687822">id=</span><span style="color: #BA2121">"threads-share"</span><span style="color: #BBB"> </span><span style="color: #687822">target=</span><span style="color: #BA2121">"_blank"</span><span style="color: #BBB"> </span><span style="color: #687822">rel=</span><span style="color: #BA2121">"noopener noreferrer"</span><span style="color: #BBB"> </span><span style="color: #687822">href=</span><span style="color: #BA2121">"https://example.com/threads"</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;button&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;img</span><span style="color: #BBB"> </span><span style="color: #687822">src=</span><span style="color: #BA2121">"static/img/social/threads.png"</span><span style="color: #BBB"> </span><span style="color: #687822">alt=</span><span style="color: #BA2121">"Threads"</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+
+<span style="color: #008000; font-weight: bold">&lt;a</span><span style="color: #BBB"> </span><span style="color: #687822">id=</span><span style="color: #BA2121">"reddit-share"</span><span style="color: #BBB"> </span><span style="color: #687822">target=</span><span style="color: #BA2121">"_blank"</span><span style="color: #BBB"> </span><span style="color: #687822">rel=</span><span style="color: #BA2121">"noopener noreferrer"</span><span style="color: #BBB"> </span><span style="color: #687822">href=</span><span style="color: #BA2121">"https://example.com/reddit"</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;button&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;img</span><span style="color: #BBB"> </span><span style="color: #687822">src=</span><span style="color: #BA2121">"static/img/social/reddit.png"</span><span style="color: #BBB"> </span><span style="color: #687822">alt=</span><span style="color: #BA2121">"Reddit"</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+
+<span style="color: #008000; font-weight: bold">&lt;a</span><span style="color: #BBB"> </span><span style="color: #687822">id=</span><span style="color: #BA2121">"whatsapp-share"</span><span style="color: #BBB"> </span><span style="color: #687822">target=</span><span style="color: #BA2121">"_blank"</span><span style="color: #BBB"> </span><span style="color: #687822">rel=</span><span style="color: #BA2121">"noopener noreferrer"</span><span style="color: #BBB"> </span><span style="color: #687822">href=</span><span style="color: #BA2121">"https://example.com/whatsapp"</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;button&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;img</span><span style="color: #BBB"> </span><span style="color: #687822">src=</span><span style="color: #BA2121">"static/img/social/whatsapp.png"</span><span style="color: #BBB"> </span><span style="color: #687822">alt=</span><span style="color: #BA2121">"WhatsApp"</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+
+<span style="color: #008000; font-weight: bold">&lt;a</span><span style="color: #BBB"> </span><span style="color: #687822">id=</span><span style="color: #BA2121">"telegram-share"</span><span style="color: #BBB"> </span><span style="color: #687822">target=</span><span style="color: #BA2121">"_blank"</span><span style="color: #BBB"> </span><span style="color: #687822">rel=</span><span style="color: #BA2121">"noopener noreferrer"</span><span style="color: #BBB"> </span><span style="color: #687822">href=</span><span style="color: #BA2121">"https://example.com/telegram"</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;button&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;img</span><span style="color: #BBB"> </span><span style="color: #687822">src=</span><span style="color: #BA2121">"static/img/social/telegram.png"</span><span style="color: #BBB"> </span><span style="color: #687822">alt=</span><span style="color: #BA2121">"Telegram"</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="color: #BBB">    </span><span style="color: #008000; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+</code></pre></div>
+<p></p>
+<style>
+    #share-buttons {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    #share-buttons a button img {
+        width: 40px;
+        height: 40px;
+        display: block;
+    }
+</style>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const metaTitle = document.querySelector("meta[name='title']")?.content || document.title;
+        const metaDescription = document.querySelector("meta[name='description']")?.content || "";
+        const encodedTitle = encodeURIComponent(metaTitle);
+        const encodedDescription = encodeURIComponent(metaDescription);
+        const pageUrl = encodeURIComponent(window.location.href);
+
+        // Mastodon
+        const mastodonButton = document.getElementById("mastodon-share");
+        mastodonButton.href = `https://toot.io/share?text=${encodedTitle}%20${encodedDescription}%20${pageUrl}`;
+
+        // Facebook
+        const facebookButton = document.getElementById("facebook-share");
+        facebookButton.href = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
+
+        // LinkedIn
+        const linkedinButton = document.getElementById("linkedin-share");
+        linkedinButton.href = `https://www.linkedin.com/shareArticle?mini=true&url=${pageUrl}&title=${encodedTitle}&summary=${encodedDescription}`;
+
+        // Bluesky
+        const blueskyButton = document.getElementById("bluesky-share");
+        blueskyButton.href = `https://bsky.app/share?text=${encodedTitle}%20${pageUrl}`;
+
+        // Threads
+        const threadsButton = document.getElementById("threads-share");
+        threadsButton.href = `https://www.threads.net/share?url=${pageUrl}`;
+
+        // Reddit
+        const redditButton = document.getElementById("reddit-share");
+        redditButton.href = `https://www.reddit.com/submit?url=${pageUrl}&title=${encodedTitle}`;
+
+        // Hacker News
+        const hackernewsButton = document.getElementById("hackernews-share");
+        hackernewsButton.href = `https://news.ycombinator.com/submitlink?u=${pageUrl}&t=${encodedTitle}`;
+
+        // WhatsApp
+        const whatsappButton = document.getElementById("whatsapp-share");
+        whatsappButton.href = `https://api.whatsapp.com/send?text=${encodedTitle}%20${pageUrl}`;
+
+        // Telegram
+        const telegramButton = document.getElementById("telegram-share");
+        telegramButton.href = `https://t.me/share/url?url=${pageUrl}&text=${encodedTitle}`;
+    });
+</script>
         </main>
       </div>
       <footer>

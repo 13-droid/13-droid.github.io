@@ -51,6 +51,52 @@ not beholden to any corporate interest. The fact that platforms across the Fediv
 ActivityPub demonstrates its effectiveness as a unifying standard for the decentralized web. Introducing yet another standard like AT Protocol
 seems unnecessary and counterproductive when the goal should be fostering unity and collaboration.&lt;/p&gt;
 &lt;p&gt;[5] &lt;a href="https://news.ycombinator.com/item?id=35881905"&gt;https://news.ycombinator.com/item?id=35881905&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"facebook-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/facebook"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/facebook.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Facebook"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"linkedin-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/linkedin"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/linkedin.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"LinkedIn"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"bluesky-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/bluesky"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/bluesky.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Bluesky"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"threads-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/threads"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/threads.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Threads"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"reddit-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/reddit"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/reddit.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Reddit"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"whatsapp-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/whatsapp"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/whatsapp.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"WhatsApp"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"telegram-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/telegram"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/telegram.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Telegram"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+
+
 &lt;/main&gt;</description></item><item><title>Link seals - self-testing links proof of concept - Misty Step Blog</title><link>https://mistystep.org/blog/testable-links</link><guid>https://mistystep.org/blog/testable-links</guid><pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 
 
@@ -168,6 +214,52 @@ worst case for a false positive is you having to update your &lt;strong&gt;link 
 &lt;p&gt;Here's an MVP implementation of linkseal running on your browser! (I hope this is working because it would be so embarassing if not)&lt;/p&gt;
 &lt;div id="linkSealLogs"&gt;&lt;/div&gt;
 
+&lt;p&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"facebook-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/facebook"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/facebook.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Facebook"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"linkedin-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/linkedin"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/linkedin.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"LinkedIn"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"bluesky-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/bluesky"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/bluesky.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Bluesky"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"threads-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/threads"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/threads.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Threads"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"reddit-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/reddit"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/reddit.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Reddit"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"whatsapp-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/whatsapp"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/whatsapp.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"WhatsApp"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"telegram-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/telegram"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/telegram.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Telegram"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+
+
 &lt;/main&gt;</description><category>coding</category><category>security</category><category>automation</category></item><item><title>What I expect from this blog - Misty Step Blog</title><link>https://mistystep.org/blog/this-blog</link><guid>https://mistystep.org/blog/this-blog</guid><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 
 
@@ -229,6 +321,52 @@ the stream of their mind runs more clearly than tweets or toots. And see what th
 &lt;em&gt;their&lt;/em&gt; own little corner of the web. What they are passionate about and think about enough that
 they want to share all their thinking with the world. And I'd be giving anyone who's interested 
 a window into mine.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"facebook-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/facebook"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/facebook.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Facebook"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"linkedin-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/linkedin"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/linkedin.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"LinkedIn"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"bluesky-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/bluesky"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/bluesky.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Bluesky"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"threads-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/threads"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/threads.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Threads"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"reddit-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/reddit"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/reddit.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Reddit"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"whatsapp-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/whatsapp"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/whatsapp.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"WhatsApp"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"telegram-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/telegram"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/telegram.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Telegram"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+
+
 &lt;/main&gt;</description><category>blogging</category><category>generic</category></item><item><title>Quoting Manuel Moreale - Misty Step Blog</title><link>https://mistystep.org/blog/output-2025</link><guid>https://mistystep.org/blog/output-2025</guid><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 &lt;h1 id="quoting-manuel-moreale"&gt;Quoting Manuel Moreale&lt;/h1&gt;
 &lt;p&gt;Manuel's new years resolution closely resembles what I've been murmuring to myself for a couple years and I have the same wishes.&lt;/p&gt;
@@ -599,6 +737,52 @@ commute neighbourhoods for your job, or finding places to visit in the weekend.&
 &lt;p&gt;&lt;img alt="image" src="https://github.com/user-attachments/assets/2c64d3bd-afa8-4ccf-913d-6b3411c99af6" style="max-width:100%;"/&gt;
 &lt;small&gt;People can see patterns where they are not, and may not see them where they are.&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;No, genius. They would not. First of all hacking doesn't really work like that anymore, we're not in 2005. Nobody "hacks your password". They get you to change it by pretending they are police officers who think you're a terrorist. But even if someone were to get a hold of your password for facebook, &lt;code&gt;12.koom?4&lt;/code&gt;, do you think they would go "hold on a second!!!! 12 is exactly 5 more than the number of letters in facebook! If this has a &lt;code&gt;!&lt;/code&gt; in it, surely a website with a vowel at the end of their name would have a &lt;code&gt;?&lt;/code&gt;"? No.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"facebook-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/facebook"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/facebook.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Facebook"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"linkedin-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/linkedin"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/linkedin.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"LinkedIn"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"bluesky-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/bluesky"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/bluesky.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Bluesky"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"threads-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/threads"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/threads.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Threads"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"reddit-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/reddit"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/reddit.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Reddit"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"whatsapp-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/whatsapp"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/whatsapp.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"WhatsApp"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+
+&lt;span&gt;&amp;lt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id=&lt;/span&gt;&lt;span&gt;"telegram-share"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;rel=&lt;/span&gt;&lt;span&gt;"noopener noreferrer"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href=&lt;/span&gt;&lt;span&gt;"https://example.com/telegram"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;button&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src=&lt;/span&gt;&lt;span&gt;"static/img/social/telegram.png"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;alt=&lt;/span&gt;&lt;span&gt;"Telegram"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;    &lt;/span&gt;&lt;span&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+
+
 &lt;/main&gt;</description><category>computers</category><category>security</category><category>privacy</category></item><item><title> - Misty Step Blog</title><link>https://mistystep.org/blog/quick/test</link><guid>https://mistystep.org/blog/quick/test</guid><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 &lt;p&gt;Is this thing on?&lt;/p&gt;
 &lt;/main&gt;</description></item></channel></rss>
