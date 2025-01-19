@@ -147,42 +147,42 @@ the stream of their mind runs more clearly than tweets or toots. And see what th
 they want to share all their thinking with the world. And I'd be giving anyone who's interested 
 a window into mine.</p>
 <p><parsers-ignore id="share-buttons">
-<a href="https://example.com/mastodon" id="mastodon-share" rel="noopener noreferrer" target="_blank">
+<a id="mastodon-share" rel="noopener noreferrer" target="_blank">
 <button>
 <img alt="Mastodon" src="https://mistystep.org/static/img/social/mastodon.png"/>
 </button>
 </a>
-<a href="https://example.com/facebook" id="facebook-share" rel="noopener noreferrer" target="_blank">
+<a id="facebook-share" rel="noopener noreferrer" target="_blank">
 <button>
 <img alt="Facebook" src="https://mistystep.org/static/img/social/facebook.png"/>
 </button>
 </a>
-<a href="https://example.com/linkedin" id="linkedin-share" rel="noopener noreferrer" target="_blank">
+<a id="linkedin-share" rel="noopener noreferrer" target="_blank">
 <button>
 <img alt="LinkedIn" src="https://mistystep.org/static/img/social/linkedin.png"/>
 </button>
 </a>
-<a href="https://example.com/bluesky" id="bluesky-share" rel="noopener noreferrer" target="_blank">
+<a id="bluesky-share" rel="noopener noreferrer" target="_blank">
 <button>
 <img alt="Bluesky" src="https://mistystep.org/static/img/social/bluesky.png"/>
 </button>
 </a>
-<a href="https://example.com/threads" id="threads-share" rel="noopener noreferrer" target="_blank">
+<a id="threads-share" rel="noopener noreferrer" target="_blank">
 <button>
 <img alt="Threads" src="https://mistystep.org/static/img/social/threads.png"/>
 </button>
 </a>
-<a href="https://example.com/reddit" id="reddit-share" rel="noopener noreferrer" target="_blank">
+<a id="reddit-share" rel="noopener noreferrer" target="_blank">
 <button>
 <img alt="Reddit" src="https://mistystep.org/static/img/social/reddit.png"/>
 </button>
 </a>
-<a href="https://example.com/whatsapp" id="whatsapp-share" rel="noopener noreferrer" target="_blank">
+<a id="whatsapp-share" rel="noopener noreferrer" target="_blank">
 <button>
 <img alt="WhatsApp" src="https://mistystep.org/static/img/social/whatsapp.png"/>
 </button>
 </a>
-<a href="https://example.com/telegram" id="telegram-share" rel="noopener noreferrer" target="_blank">
+<a id="telegram-share" rel="noopener noreferrer" target="_blank">
 <button>
 <img alt="Telegram" src="https://mistystep.org/static/img/social/telegram.png"/>
 </button>
@@ -224,11 +224,11 @@ a window into mine.</p>
 
         // Bluesky
         const blueskyButton = document.getElementById("bluesky-share");
-        blueskyButton.href = `https://bsky.app/share?text=${encodedTitle}%20${pageUrl}`;
+        blueskyButton.href = `https://bsky.app/intent/compose?text=${encodedTitle}%20${pageUrl}`;
 
         // Threads
         const threadsButton = document.getElementById("threads-share");
-        threadsButton.href = `https://www.threads.net/share?url=${pageUrl}`;
+        threadsButton.href = `https://www.threads.net/intent/post?url=${pageUrl}&text=${encodedTitle}%20-%20${encodedDescription}`;
 
         // Reddit
         const redditButton = document.getElementById("reddit-share");
@@ -240,11 +240,11 @@ a window into mine.</p>
 
         // WhatsApp
         const whatsappButton = document.getElementById("whatsapp-share");
-        whatsappButton.href = `https://api.whatsapp.com/send?text=${encodedTitle}%20${pageUrl}`;
+        whatsappButton.href = `https://api.whatsapp.com/send/?text=${encodedTitle}%20${pageUrl}`;
 
         // Telegram
         const telegramButton = document.getElementById("telegram-share");
-        telegramButton.href = `https://t.me/share/url?url=${pageUrl}&text=${encodedTitle}`;
+        telegramButton.href = `https://telegram.me/share/url?url=${pageUrl}&text=${encodedTitle}`;
     });
 </script>
         </main>
