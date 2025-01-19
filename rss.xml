@@ -76,6 +76,7 @@ seems unnecessary and counterproductive when the goal should be fostering unity 
 &lt;li&gt;&lt;a href="#applications"&gt;Applications&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#challenges"&gt;Challenges&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#live-demo"&gt;Live Demo 🚨&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#for-posteriority"&gt;For Posteriority&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -171,6 +172,8 @@ worst case for a false positive is you having to update your &lt;strong&gt;link 
 &lt;p&gt;What do you think? Any ideas? Concerns? Do you think this is a big pile of bull? Reach out to tell me and let's discuss. Find me on &lt;a href="https://mastodon.social/@cemre" linksealkey="some nonsense i would not say"&gt;mastodon&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id="live-demo"&gt;Live Demo 🚨&lt;/h2&gt;
 &lt;p&gt;Here's an MVP implementation of linkseal running on your browser! (I hope this is working because it would be so embarassing if not)&lt;/p&gt;
+&lt;h2 id="for-posteriority"&gt;For Posteriority&lt;/h2&gt;
+&lt;p&gt;I've since found &lt;a href="https://unrot.link/"&gt;https://unrot.link/&lt;/a&gt; which seems to automate the archive check process, but not against checkable logic to determine plausible temporality of the content to get from the archive.&lt;/p&gt;
 &lt;div id="linkSealLogs"&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;/p&gt;
