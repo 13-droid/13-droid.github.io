@@ -238,10 +238,6 @@ a window into mine.</p>
         const redditButton = document.getElementById("reddit-share");
         redditButton.href = `https://www.reddit.com/submit?url=${pageUrl}&title=${encodedTitle}`;
 
-        // Hacker News
-        const hackernewsButton = document.getElementById("hackernews-share");
-        hackernewsButton.href = `https://news.ycombinator.com/submitlink?u=${pageUrl}&t=${encodedTitle}`;
-
         // WhatsApp
         const whatsappButton = document.getElementById("whatsapp-share");
         whatsappButton.href = `https://api.whatsapp.com/send/?text=${encodedTitle}%20${pageUrl}`;
