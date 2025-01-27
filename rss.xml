@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>Misty Step Blog</title><link>https://mistystep.org</link><description>This is an RSS feed of my website.</description><item><title>Why I left Twitter &amp; why I chose Mastodon over Bluesky - Misty Step Blog</title><link>https://mistystep.org/blog/leaving-twitter-for-mastodon</link><guid>https://mistystep.org/blog/leaving-twitter-for-mastodon</guid><pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
+<rss version="2.0"><channel><title>Misty Step Blog</title><link>https://mistystep.org</link><description>This is an RSS feed of my website.</description><item><title>Why I left Twitter &amp; why I chose Mastodon over Bluesky - Misty Step Blog</title><link>https://mistystep.org/blog/leaving-twitter-for-mastodon</link><guid>https://mistystep.org/blog/leaving-twitter-for-mastodon</guid><pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
 &lt;h1 id="why-i-left-twitter-why-i-chose-mastodon-over-bluesky"&gt;Why I left Twitter &amp;amp; why I chose Mastodon over Bluesky&lt;/h1&gt;
 &lt;p&gt;On the beginning of 2025, in line with my new year's aspirations, I left Twitter. I chose Mastodon to be my new microblogging home on the web. I was asked why I didn't go for Bluesky. I wanted to give a comprehensive response to this, and here it is.&lt;/p&gt;
 &lt;h2 id="1-the-algorithm"&gt;1. The Algorithm&lt;/h2&gt;
@@ -51,6 +51,43 @@ not beholden to any corporate interest. The fact that platforms across the Fediv
 ActivityPub demonstrates its effectiveness as a unifying standard for the decentralized web. Introducing yet another standard like AT Protocol
 seems unnecessary and counterproductive when the goal should be fostering unity and collaboration.&lt;/p&gt;
 &lt;p&gt;[5] &lt;a href="https://news.ycombinator.com/item?id=35881905"&gt;https://news.ycombinator.com/item?id=35881905&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;/main&gt;</description></item><item><title>Community-based peer-reviewed education concept - Misty Step Blog</title><link>https://mistystep.org/blog/peer-review-university</link><guid>https://mistystep.org/blog/peer-review-university</guid><pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate><description>&lt;main&gt;
+&lt;h1 id="community-based-peer-reviewed-education-concept"&gt;Community-based peer-reviewed education concept&lt;/h1&gt;
+&lt;p&gt;This blog post proposes a new framework to approach university-level education
+based on community-reviewed deliverables.&lt;/p&gt;
+&lt;p&gt;All of this will be conceptualized as a github organization. Implementation details and
+specifics are left to the discretion of community builders.&lt;/p&gt;
+&lt;h2 id="the-university"&gt;The &lt;em&gt;University&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;The university is a self-managing github organization.&lt;/p&gt;
+&lt;h2 id="degrees"&gt;Degrees&lt;/h2&gt;
+&lt;p&gt;There can be multiple degrees offered by the university. A degree is a collection of courses
+(curriculum) with required &amp;amp; optional courses. All degrees live on their own repository, with
+their一&lt;/p&gt;
+&lt;h2 id="curricula"&gt;Curricula&lt;/h2&gt;
+&lt;p&gt;Every degree will have a curricula, that lives on the degree's repository. The curricula will list
+required and optional courses, and provide a clear determinator for the course sets, the completion
+of which, entitles the completor to the associated degree.&lt;/p&gt;
+&lt;p&gt;The degree &amp;amp; curricula repositories are managed by community members associated with said degree.
+Only these members can approve pull requests for the degree repositories.&lt;/p&gt;
+&lt;h2 id="courses"&gt;Courses&lt;/h2&gt;
+&lt;p&gt;Courses live on their own repositories. They are managed by community members associated with the course
+or, in the case of lack thereof, with the members associated degree. All course repositories will have their own
+deliverables directory, or, a separate repository for their deliverables to be committed to.&lt;/p&gt;
+&lt;h2 id="deliverables"&gt;Deliverables&lt;/h2&gt;
+&lt;p&gt;Completion of every course is dependent on a set of deliverables being, well, delivered. Every course is
+studied as self-study, and the students are to produce the deliverables required for the course. The deliverables
+are opened as pull-requests against the course's deliverables directory. The deliverable PRs are reviewed by the
+community, and, they are merged with &lt;em&gt;enough&lt;/em&gt; approvals.&lt;/p&gt;
+&lt;h2 id="completion"&gt;Completion&lt;/h2&gt;
+&lt;p&gt;A github actions cronjob checks deliverables against courses' required deliverables, when all deliverables are
+committed to the repository, the cronjob adds the user to the list of completors that live on the course
+repository.&lt;/p&gt;
+&lt;p&gt;When all courses are completed, a degree for the user is committed to the degrees repository. And the user
+will have access to their completely uncredited degree from the Peer Review University.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 
