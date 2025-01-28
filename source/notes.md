@@ -10,6 +10,11 @@ Legend:
   <li><find-tag>#concept</find-tag>: Concepts i did not know or had forgotten about</li>
 </ul>
 
+### 2025-01-28 12:40 
+
+Unplatform, a guide to unplatform yourself and transition
+to the indie web. <https://unplatform.fromthesuperhighway.com/> <tag>#shortRead</tag>
+
 ### 2025-01-21 14:59 
 
 <https://oraclebone.org/> Oracle bone characters list
