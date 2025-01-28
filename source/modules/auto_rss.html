@@ -16,8 +16,8 @@
       .map(link => link.href)
       .filter(href => href.endsWith('#rss'));
 
-    // Encode the links and join them with commas
-    const encodedLinks = rssLinks.map(encodeURIComponent).join(',');
+    // Join them with commas
+    const encodedLinks = rssLinks.join(',');
 
     // Extract query params from the current page
     const currentQueryParams = new URLSearchParams(window.location.search);
