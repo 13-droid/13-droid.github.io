@@ -10,6 +10,14 @@ Legend:
   <li><find-tag>#concept</find-tag>: Concepts i did not know or had forgotten about</li>
 </ul>
 
+### 2025-02-03 12:42 
+
+Reviewed list of blogging platforms with columns:
+
+Platform/	Can you self-host it?/	Is hosted for you?/	Free hosted tier?/	Minimum price
+
+<https://manuelmoreale.com/blog-platforms>
+
 ### 2025-01-28 12:40 
 
 Unplatform, a guide to unplatform yourself and transition
