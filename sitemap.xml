@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://mistystep.org/index</loc>
+  </url>
+  <url>
     <loc>https://mistystep.org/archive</loc>
   </url>
   <url>
@@ -10,40 +13,37 @@
     <loc>https://mistystep.org/about</loc>
   </url>
   <url>
-    <loc>https://mistystep.org/index</loc>
-  </url>
-  <url>
     <loc>https://mistystep.org/tools/password-function</loc>
-  </url>
-  <url>
-    <loc>https://mistystep.org/blog/leaving-twitter-for-mastodon</loc>
-  </url>
-  <url>
-    <loc>https://mistystep.org/blog/testable-links</loc>
-  </url>
-  <url>
-    <loc>https://mistystep.org/blog/useful-online-tools</loc>
-  </url>
-  <url>
-    <loc>https://mistystep.org/blog/the-best-i-ever-had</loc>
-  </url>
-  <url>
-    <loc>https://mistystep.org/blog/i-hate-password-managers</loc>
   </url>
   <url>
     <loc>https://mistystep.org/blog/peer-review-university</loc>
   </url>
   <url>
-    <loc>https://mistystep.org/blog/this-blog</loc>
+    <loc>https://mistystep.org/blog/tech-stack</loc>
   </url>
   <url>
     <loc>https://mistystep.org/blog/following</loc>
   </url>
   <url>
-    <loc>https://mistystep.org/blog/tech-stack</loc>
+    <loc>https://mistystep.org/blog/the-best-i-ever-had</loc>
+  </url>
+  <url>
+    <loc>https://mistystep.org/blog/useful-online-tools</loc>
+  </url>
+  <url>
+    <loc>https://mistystep.org/blog/i-hate-password-managers</loc>
+  </url>
+  <url>
+    <loc>https://mistystep.org/blog/testable-links</loc>
+  </url>
+  <url>
+    <loc>https://mistystep.org/blog/leaving-twitter-for-mastodon</loc>
   </url>
   <url>
     <loc>https://mistystep.org/blog/output-2025</loc>
+  </url>
+  <url>
+    <loc>https://mistystep.org/blog/this-blog</loc>
   </url>
   <url>
     <loc>https://mistystep.org/blog/quick/test</loc>
