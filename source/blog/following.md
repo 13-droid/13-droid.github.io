@@ -213,6 +213,11 @@ From <https://shkspr.mobi/blog/2020/01/even-google-forgets-to-renew-its-domains/
 <https://kayserifserif.place/#blog>
 <https://kayserifserif.place/feed.xml#rss>
 
+### Rakhim
+
+<https://rakhim.exotext.com#blog>
+<https://rakhim.exotext.com/rss.xml#rss>
+
 ## Orgs & Co-ops
 
 ### SilverOrange
