@@ -56,6 +56,13 @@ Github: [github.com/surprisetalk](https://github.com/surprisetalk)
 
 RSS: [taylor.town/feed.xml](https://taylor.town/feed.xml#rss)
 
+### Michael Rosen
+
+Childrens' book author, lovely person.
+
+<https://michaelrosenblog.blogspot.com#blog>
+<https://michaelrosenblog.blogspot.com/rss.xml#rss>
+
 ### Manuel Moreale
 
 <https://manuelmoreale.com/#blog>
