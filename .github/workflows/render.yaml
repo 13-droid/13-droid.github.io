@@ -29,7 +29,7 @@ jobs:
     - name: Run SimplyMarkdown
       run: |
         cd SimplyMarkdown
-        python3 render.py -i ../source -o ../output --title 'Misty Step Blog' --css ../source/static/css/style.css --root 'https://mistystep.org' --favicon 🌫️ --rss-whitelist '/blog/*'
+        python3 render.py -i ../source -o ../output --title 'Misty Step Blog' --css ../source/static/css/style.css --root 'https://randomblog.dutl.uk' --favicon 🏮 --rss-whitelist '/blog/*'
     - name: Cleanup repo
       run: |
         rm -r SimplyMarkdown
